@@ -1,0 +1,7 @@
+___SINGLE PARAGRAPH FORMAT. Open with UGC identity, then scene, camera, actions, audio. No section headers. Flow naturally.___
+
+___Pattern: "[Device and style]. [Subject and setting with narrative clutter]. [Feeling/vibe]. [Color and exposure]. [Camera framing and angle]. [Camera movement]. [Action beat 1]. [Action beat 2]. [Action beat 3]. [Ambient audio cue]. [Duration]."___
+
+___Example: "Smartphone camera, slightly grainy, warm overhead bathroom light. A woman's hand reaches for a sleek white electric razor sitting on a cluttered bathroom counter next to a hair tie, a used cotton pad, and a small lotion bottle. Casual, impulsive, like someone filming a quick product moment. Flat, true to life, no color grade applied. Close up of counter surface and hand, slight high angle looking down. Still camera with subtle handheld micro shake, like a phone propped on a shelf. Hand enters frame from the right and reaches for the razor. Fingers wrap around the razor and lift it up from the surface. Hand slowly turns the razor over, showing the smooth curved design. Quiet bathroom acoustics, soft tap of razor lifting off the counter, faint room hum. 4 seconds."___
+
+___RULES: No section headers. No bullet lists. No comment lines in final output. One camera move + one subject action. Sequential beats. Positive constraints only. End with duration. Under 100 words for 4s, 100 to 150 for 8s+.___

@@ -1,0 +1,11 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+*.json
+!requirements.txt

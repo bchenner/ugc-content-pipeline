@@ -1,0 +1,47 @@
+# Generated output and working data
+manager/projects/
+manager/content-plans/
+manager/research/
+
+# Agent working directories
+knowledge-updater/inbox/
+knowledge-updater/update-log.md
+patchwork-importer/output/
+viral-scanner/downloads/
+seedance-prompter/test-prompts/
+seedance-prompter/reference-videos/
+
+# Backups of old systems
+nanobanana-prompter/backup/
+veo-prompter/backup/
+
+# Removed agents
+sora-prompter/
+
+# Strategist research data
+strategist/research/
+
+# Python virtual environments (skills should use requirements.txt)
+.venv/
+venv/
+
+# Browser state and auth data
+data/browser_state/
+token.json
+credentials.json
+*.pickle
+
+# Notebooklm library data
+skills/notebooklm/data/
+
+# Gsheets setup output
+skills/gsheets/setup/
+
+# System files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+*.mp4

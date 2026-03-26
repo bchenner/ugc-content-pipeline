@@ -1,0 +1,2839 @@
+{
+  "format": "ducted-project",
+  "version": "0.7.11",
+  "name": "SGP Factory",
+  "tabs": [
+    {
+      "name": "Mainbody",
+      "graphData": {
+        "last_node_id": 34,
+        "last_link_id": 50,
+        "nodes": [
+          {
+            "id": 26,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -2210,
+              991
+            ],
+            "size": [
+              320,
+              597.5
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  28
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Reference Image 27",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772317082587-images/1772317082772-1hb2a8-approval-1772317082723.png",
+              "filename": "Approval 10",
+              "width": 768,
+              "height": 1376,
+              "variableName": "Reference Image 27",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": null,
+              "_batchAssetIds": [],
+              "_spawnNum": 27
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 34,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -1830,
+              1113
+            ],
+            "size": [
+              320,
+              360
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  50
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Reference Image 29",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772412209235-images/1772412209830-fhpkl5-WhatsApp_Image_2026-02-06_at_16.36.42__1_.jpeg",
+              "filename": "WhatsApp Image 2026-02-06 at 16.36.42 (1).jpeg",
+              "width": 1080,
+              "height": 1080,
+              "variableName": "Reference Image 29",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": "c242c3e9-9dd0-4e43-846a-1c89aca37c4c",
+              "_batchAssetIds": [],
+              "_spawnNum": 29
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 25,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -2001,
+              668
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  29
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 4",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC founder content for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n\n  \"camera\": {\n    \"vantage\": \"eye-level, direct front-facing, smartphone propped on bathroom counter\",\n    \"framing\": \"waist-up medium shot, subject occupies 55% of frame, slight off-center (rule of thirds, subject shifted slightly right)\",\n    \"lens_behavior\": \"smartphone front camera equivalent, ~24mm wide-angle with subtle barrel distortion at edges\",\n    \"sensor_quality\": \"subtle digital grain, limited dynamic range, slightly blown-out highlights near window\",\n    \"shake\": \"minimal — phone is propped, not handheld, but not tripod-perfect either\"\n  },\n\n  \"scene\": {\n    \"environment\": {\n      \"setting\": \"modern, aesthetically curated bathroom — clean and elevated but still personal. Large format white marble-look porcelain tile with subtle grey veining, floating walnut vanity with brass hardware, round backlit mirror partially visible at edge of frame, small eucalyptus sprig in a ceramic vase on the counter\",\n      \"lighting\": {\n        \"key_light\": \"natural morning sunlight from frosted bathroom window, camera-left, warm color temperature (~4500K)\",\n        \"fill\": \"ambient bounce from light marble-look tile walls, soft and even\",\n        \"quality\": \"soft directional light with gentle shadows on right side of face, no harsh contrast\",\n        \"interaction\": \"light catches the metallic surface of the electric razor, creating a subtle specular highlight on the device body\"\n      },\n      \"time_of_day\": \"morning\",\n      \"atmosphere\": \"warm, bright, intimate — the natural context where this product lives and gets used\"\n    },\n\n    \"subject\": {\n      \"obj_001\": {\n        \"type\": \"person\",\n        \"description\": \"woman, mid-to-late 20s, racially ambiguous/mixed features, clear skin with visible natural texture (pores, subtle under-eye warmth), dark brown hair pulled back in a loose low bun with messy flyaway strands framing face\",\n        \"expression\": {\n          \"mood\": \"proud and excited — she's about to show you something she built, contained enthusiasm with a confident smile forming\",\n          \"action\": \"mid-speech, mouth open as if saying the word 'Meet,' chin up slightly with pride, eyes bright and engaged\"\n        },\n        \"skin\": \"realistic skin micro-texture (pores, natural gloss on forehead and nose from morning moisture), no makeup or very minimal — bare skin with natural warmth and flush on cheeks\",\n        \"eyes\": \"clear catchlights in both eyes from window light, warm brown, engaged and direct\",\n        \"attire\": {\n          \"top\": \"plain white ribbed tank top, slightly oversized, one strap sitting loosely on shoulder — dressed for a morning routine, not for camera\",\n          \"material_fidelity\": \"soft cotton with visible ribbed texture, natural drape, no logos or patterns\"\n        },\n        \"positioning\": \"standing at bathroom counter, body angled slightly toward camera-left, face turned fully toward camera, weight on left hip — casual, not posed\"\n      }\n    },\n\n    \"product\": {\n      \"obj_002\": {\n        \"type\": \"product — electric razor\",\n        \"description\": \"Silk Glide Pro — sleek wireless women's electric razor, modern industrial design, matte rose gold / soft pink metallic body with subtle sheen, compact ergonomic form factor, micro-foil head visible at top\",\n        \"text_rendering\": \"brand name 'Silk Glide Pro' subtly embossed on the body of the device in small sans-serif lettering\",\n        \"positioning\": \"held prominently in subject's right hand at chest level, arm extended slightly toward camera — a deliberate 'meet this' presentation angle. Product is the focal point of the composition alongside her face. Fingers wrapped naturally around the handle, foil head and brand name clearly visible\",\n        \"spatial_relationship\": \"product is 10 inches from subject's body, between subject and camera, prominently placed in the lower-center-right of the frame\",\n        \"material_fidelity\": \"matte metallic body with soft specular highlight from window light, micro-foil head has fine metallic mesh texture, power button visible as small recessed circle\"\n      }\n    },\n\n    \"background\": {\n      \"description\": \"floating walnut vanity counter and edge of round backlit mirror visible behind subject, slightly out of focus (shallow depth of field simulation). Clean, curated — the kind of bathroom you'd see in a lifestyle brand's Instagram. This is where the product naturally lives\",\n      \"narrative_clutter\": [\n        \"obj_003: a frosted amber glass skincare bottle with minimalist label and pump top, partially visible at bottom-left edge of frame on the counter\",\n        \"obj_004: a neatly folded waffle-textured linen hand towel in warm off-white on the counter\",\n        \"obj_005: a small ceramic tray holding a few gold hair pins and a black hair tie\",\n        \"obj_006: a sprig of dried eucalyptus in a slim white ceramic bud vase, slightly behind the subject's elbow, out of focus\"\n      ],\n      \"depth\": \"background elements at f/2.0 equivalent blur — present but not competing with subject\"\n    }\n  },\n\n  \"aesthetic_controls\": {\n    \"render_intent\": \"amateur smartphone UGC for social media — this should look like a real woman filming herself in her bathroom while demonstrating her product, not a studio shoot\",\n    \"material_fidelity\": [\n      \"realistic skin micro-texture with visible pores and natural oil sheen\",\n      \"soft cotton ribbed tank with fabric weight and drape\",\n      \"metallic razor body with accurate specular response\",\n      \"marble-look porcelain tile with subtle grey veining and clean grout lines\",\n      \"natural hair texture with flyaways and loose strands\"\n    ],\n    \"degradation\": {\n      \"grain\": \"subtle luminance noise consistent with smartphone sensor in indoor natural light\",\n      \"highlights\": \"slightly blown highlights on the window-side of face and on marble-look tile behind subject\",\n      \"dynamic_range\": \"limited — shadows slightly lifted, not true black, consistent with smartphone processing\",\n      \"color_science\": \"warm, slightly oversaturated skin tones — typical of modern smartphone auto-processing\"\n    },\n    \"color_palette\": \"warm elevated neutrals — marble whites with grey veining, walnut wood tones, brass accents, soft pink product, warm skin tones, white tank top. Cohesive and curated, no competing bold colors\"\n  },\n\n  \"negative_prompt\": {\n    \"forbidden_elements\": [\n      \"ring light reflection in eyes\",\n      \"studio backdrop\",\n      \"professional hair styling\",\n      \"heavy makeup\",\n      \"product packaging or boxes\",\n      \"text overlays or watermarks\",\n      \"other people in frame\",\n      \"brand logos on clothing\"\n    ],\n    \"forbidden_style\": [\n      \"anime\", \"CGI\", \"3D render\", \"illustration\", \"oil painting\",\n      \"uncanny valley\", \"plastic skin\", \"wax figure\", \"airbrushed\",\n      \"stock photo\", \"commercial photography\", \"catalog shot\",\n      \"overly symmetrical face\", \"perfect skin with no texture\"\n    ]\n  },\n\n  \"narrative_prompt\": \"A waist-up smartphone front camera photo of a woman in her late 20s standing in her bathroom, speaking directly to camera with a proud, excited expression — she's presenting something she built, confident smile forming, eyes bright. She has dark brown hair pulled back in a loose low bun with messy flyaway strands framing her face. Her skin is bare with realistic micro-texture — visible pores, natural oil sheen on forehead and nose, subtle warmth and flush on cheeks. She wears a plain white ribbed cotton tank top, one strap sitting loosely on her shoulder. In her right hand, held prominently at chest level with arm extended slightly toward camera in a deliberate presentation, she holds a sleek wireless women's electric razor — matte rose gold metallic body with a micro-foil head, compact and modern. The product is the focal point alongside her face. Natural morning sunlight enters from a frosted bathroom window to the left, creating soft warm directional light with gentle shadows on the right side of her face. The light catches the metallic surface of the razor with a subtle specular highlight. Behind her, slightly out of focus, is a modern curated bathroom — floating walnut vanity with brass hardware, large format white marble-look porcelain tile with subtle grey veining, edge of a round backlit mirror. On the counter: a frosted amber glass skincare bottle, a waffle-textured linen hand towel, a small ceramic tray with gold hair pins, and a sprig of dried eucalyptus in a slim white bud vase. Clean and elevated but still personal. Subtle digital grain, slightly blown-out highlights near the window, limited dynamic range consistent with smartphone sensor. 9:16 vertical aspect ratio. Social media realism — this should look like a real founder demonstrating her product in her actual bathroom, not a produced shoot.\"\n}",
+              "variableName": "Prompt 4",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 4
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 5,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -2118,
+              -81
+            ],
+            "size": [
+              320,
+              597.5
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  10
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Reference Image 4",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772317082587-images/1772317082772-1hb2a8-approval-1772317082723.png",
+              "filename": "Approval 10",
+              "width": 768,
+              "height": 1376,
+              "variableName": "Reference Image 4",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": null,
+              "_batchAssetIds": [],
+              "_spawnNum": 4
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 33,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -1748,
+              105
+            ],
+            "size": [
+              320,
+              360
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  49
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Reference Image 28",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772412199324-images/1772412199808-336i0w-WhatsApp_Image_2026-02-06_at_16.36.42__1_.jpeg",
+              "filename": "WhatsApp Image 2026-02-06 at 16.36.42 (1).jpeg",
+              "width": 1080,
+              "height": 1080,
+              "variableName": "Reference Image 28",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": "c4b66fbb-7cfc-4bfa-9512-f20c0e9bde29",
+              "_batchAssetIds": [],
+              "_spawnNum": 28
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 1,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -1861,
+              -324
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  1
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 3",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC founder content for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n\n  \"camera\": {\n    \"vantage\": \"eye-level, direct front-facing, smartphone propped on workbench surface\",\n    \"framing\": \"waist-up medium shot, subject occupies 55% of frame, slight off-center (rule of thirds, subject shifted slightly right)\",\n    \"lens_behavior\": \"smartphone front camera equivalent, ~24mm wide-angle with subtle barrel distortion at edges\",\n    \"sensor_quality\": \"subtle digital grain, limited dynamic range, slightly bright overhead lighting\",\n    \"shake\": \"minimal — phone is propped, not handheld, but not tripod-perfect either\"\n  },\n\n  \"scene\": {\n    \"environment\": {\n      \"setting\": \"small modern product development workspace — clean, functional, founder-scale R&D. White laminate workbench with brushed aluminum edge trim, pegboard tool wall partially visible on camera-right with a few organized tools and product sketches pinned up, small adjustable desk lamp with brushed steel arm, overhead LED panel casting even bright light\",\n      \"lighting\": {\n        \"key_light\": \"overhead LED panel light, bright and even, neutral-cool color temperature (~5000K), simulating a functional workspace\",\n        \"fill\": \"ambient bounce from white workbench surface and light walls, secondary warm accent from desk lamp (~3200K, camera-left)\",\n        \"quality\": \"even overhead illumination with slight warm fill from desk lamp — functional but not sterile, gentle shadow under chin from overhead source\",\n        \"interaction\": \"light catches the metallic surface of the electric razor, creating a clean specular highlight on the device body. LED overhead creates small bright catchlights in eyes\"\n      },\n      \"time_of_day\": \"daytime (indoor workspace, no windows visible)\",\n      \"atmosphere\": \"innovative, credible, behind-the-scenes founder energy — where the product was actually developed\"\n    },\n\n    \"subject\": {\n      \"obj_001\": {\n        \"type\": \"person\",\n        \"description\": \"woman, mid-to-late 20s, racially ambiguous/mixed features, clear skin with visible natural texture (pores, subtle under-eye warmth), dark brown hair pulled back in a loose low bun with messy flyaway strands framing face\",\n        \"expression\": {\n          \"mood\": \"confident and slightly amused — the 'I know something you don't' founder energy, direct eye contact with camera, one eyebrow subtly raised\",\n          \"action\": \"mid-speech, mouth slightly open as if about to deliver a punchline, chin tilted slightly up with quiet self-assurance\"\n        },\n        \"skin\": \"realistic skin micro-texture (pores, natural gloss on forehead and nose), no makeup or very minimal — bare skin with natural warmth and flush on cheeks\",\n        \"eyes\": \"clear catchlights in both eyes from overhead LED, warm brown, engaged and direct\",\n        \"attire\": {\n          \"top\": \"plain white ribbed tank top, slightly oversized, one strap sitting loosely on shoulder — dressed casually, authentic founder not dressed for camera\",\n          \"material_fidelity\": \"soft cotton with visible ribbed texture, natural drape, no logos or patterns\"\n        },\n        \"positioning\": \"standing at workbench, body angled slightly toward camera-left, face turned fully toward camera, weight on left hip — casual, not posed\"\n      }\n    },\n\n    \"product\": {\n      \"obj_002\": {\n        \"type\": \"product — electric razor\",\n        \"description\": \"Silk Glide Pro — sleek wireless women's electric razor, modern industrial design, matte rose gold / soft pink metallic body with subtle sheen, compact ergonomic form factor, micro-foil head visible at top\",\n        \"text_rendering\": \"brand name 'Silk Glide Pro' subtly embossed on the body of the device in small sans-serif lettering\",\n        \"positioning\": \"held in subject's right hand at mid-chest level, angled 15 degrees toward camera so the foil head and brand name are visible, fingers wrapped naturally around the handle — not gripped tightly, held casually like she's showing it to a friend\",\n        \"spatial_relationship\": \"product is 8 inches from subject's body, between subject and camera, in the lower-right third of the frame\",\n        \"material_fidelity\": \"matte metallic body with soft specular highlight from overhead LED, micro-foil head has fine metallic mesh texture, power button visible as small recessed circle\"\n      }\n    },\n\n    \"background\": {\n      \"description\": \"product development workspace behind subject, slightly out of focus (shallow depth of field simulation). Functional and personal — the kind of workspace a small-brand founder actually works in\",\n      \"narrative_clutter\": [\n        \"obj_003: a pegboard tool wall with a few precision tools (small screwdrivers, calipers) and two product sketches pinned up — pencil on white paper, showing razor ergonomic studies, slightly curled at the edges\",\n        \"obj_004: two additional Silk Glide Pro prototypes on the workbench — one disassembled showing internal components, one in a slightly different color (matte white) suggesting an earlier iteration\",\n        \"obj_005: a small magnifying loupe on a stand next to the prototypes, used for inspecting foil mesh quality\",\n        \"obj_006: a black moleskine-style notebook open with handwritten notes and small diagrams, a pen resting across the page\",\n        \"obj_007: a half-empty ceramic mug (matte grey) near the edge of the workbench\"\n      ],\n      \"depth\": \"background elements at f/2.0 equivalent blur — present but not competing with subject\"\n    }\n  },\n\n  \"aesthetic_controls\": {\n    \"render_intent\": \"amateur smartphone UGC for social media — this should look like a real founder filming in her actual workspace, not a studio shoot. The development context adds credibility without looking produced\",\n    \"material_fidelity\": [\n      \"realistic skin micro-texture with visible pores and natural oil sheen\",\n      \"soft cotton ribbed tank with fabric weight and drape\",\n      \"metallic razor body with accurate specular response under LED lighting\",\n      \"white laminate workbench with subtle surface texture\",\n      \"natural hair texture with flyaways and loose strands\",\n      \"brushed aluminum and steel tool surfaces with realistic reflections\"\n    ],\n    \"degradation\": {\n      \"grain\": \"subtle luminance noise consistent with smartphone sensor in bright indoor artificial light\",\n      \"highlights\": \"slightly blown highlights on the workbench surface directly under LED and on forehead\",\n      \"dynamic_range\": \"limited — shadows slightly lifted, not true black, consistent with smartphone processing\",\n      \"color_science\": \"slightly cool cast from LED overhead balanced by warm desk lamp accent — typical of modern smartphone auto white balance in mixed lighting\"\n    },\n    \"color_palette\": \"functional workspace neutrals — white laminate, brushed aluminum, grey ceramics, warm skin tones against cool LED light, rose gold product as the primary color accent. Clean and credible without being sterile\"\n  },\n\n  \"negative_prompt\": {\n    \"forbidden_elements\": [\n      \"ring light reflection in eyes\",\n      \"studio backdrop\",\n      \"professional hair styling\",\n      \"heavy makeup\",\n      \"product packaging or boxes\",\n      \"text overlays or watermarks\",\n      \"other people in frame\",\n      \"brand logos on clothing\",\n      \"industrial factory equipment\",\n      \"chemistry lab glassware\",\n      \"corporate office furniture\"\n    ],\n    \"forbidden_style\": [\n      \"anime\", \"CGI\", \"3D render\", \"illustration\", \"oil painting\",\n      \"uncanny valley\", \"plastic skin\", \"wax figure\", \"airbrushed\",\n      \"stock photo\", \"commercial photography\", \"catalog shot\",\n      \"overly symmetrical face\", \"perfect skin with no texture\"\n    ]\n  },\n\n  \"narrative_prompt\": \"A waist-up smartphone front camera photo of a woman in her late 20s standing at a workbench in a small product development workspace, speaking directly to camera with a confident, slightly amused expression — one eyebrow subtly raised, mouth slightly open mid-sentence. She has dark brown hair pulled back in a loose low bun with messy flyaway strands framing her face. Her skin is bare with realistic micro-texture — visible pores, natural oil sheen on forehead and nose, subtle warmth and flush on cheeks. She wears a plain white ribbed cotton tank top, one strap sitting loosely on her shoulder. In her right hand, held casually at mid-chest level and angled toward camera, she holds a sleek wireless women's electric razor — matte rose gold metallic body with a micro-foil head, compact and modern. Bright overhead LED panel casts even neutral-cool light from above, with a warm accent from a brushed steel desk lamp to the left, creating gentle shadow under her chin. The LED creates small bright catchlights in both eyes. Behind her, slightly out of focus, is a functional product development workspace — white laminate workbench with brushed aluminum edge, a pegboard tool wall with precision tools and pencil sketches of razor ergonomic studies pinned up, two additional Silk Glide Pro prototypes on the bench (one disassembled, one in matte white), a magnifying loupe on a stand, an open black notebook with handwritten notes, and a grey ceramic mug near the edge. Functional and personal — the kind of workspace a small-brand founder actually works in. Subtle digital grain, slightly blown highlights on the workbench surface, limited dynamic range consistent with smartphone sensor. 9:16 vertical aspect ratio. Social media realism — this should look like a real founder filming content in her actual development workspace, not a produced shoot.\"\n}",
+              "variableName": "Prompt 3",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                "{   \"meta\": {     \"image_type\": \"Founder UGC Video Still — Scene 1 Start Frame\",     \"timestamp\": \"0:00\",     \"format\": \"9:16 vertical aspect ratio\",     \"style_mode\": \"raw_photoreal_high_fidelity\",     \"look\": \"documentary founder content, handheld camera aesthetic, factory environment\"   },    \"camera\": {     \"vantage\": \"Eye-level, facing the founder directly, camera operator positioned approximately 6 feet ahead walking backward\",     \"framing\": \"Medium-wide shot, founder occupies roughly 45-50% of the vertical frame, significant factory environment visible on both sides and above\",     \"focal_length\": \"28-35mm equivalent wide-angle, capturing both the founder and the factory context\",     \"depth_of_field\": \"Moderate — founder sharp, immediate background (first 10 feet) in acceptable focus, deep background beginning to soften\",     \"sensor_quality\": \"Modern smartphone rear camera, ISO 1600-2500 under industrial lighting, subtle luminance grain in shadow areas\",     \"movement\": \"First frame of a backward-tracking walk — slight initial unsteadiness as camera operator begins moving, subtle rotational micro-shake, very slight leftward drift as the operator finds their walking line\",     \"motion_artifacts\": \"Minimal motion blur on founder (just beginning to walk), slight directional blur on passing foreground machinery edges\"   },    \"scene\": {     \"environment\": {       \"setting\": \"Entrance zone of factory production floor — the founder has just stepped onto the main floor from a corridor or doorway\",       \"lighting\": {         \"primary\": \"Overhead industrial fluorescent tube banks, cool white (4800-5200K), arranged in parallel rows running the length of the ceiling, casting repetitive hard shadows on the concrete floor\",         \"secondary\": \"Faint warm spill from an open doorway or corridor behind camera, creating a subtle warm fill on the founder's face that slightly counters the cool overhead\",         \"practical_lights\": \"Small LED indicator lights on nearby machinery — green and amber pinpoints scattered in the mid-ground, adding color texture to the industrial palette\",         \"quality\": \"Functional, unflattering — the kind of lighting designed for work, not for cameras. Hard overhead shadows under the brow, nose, and chin. No diffusion. Realistic industrial harshness.\",         \"dynamic_range_challenge\": \"Bright fluorescent banks near the ceiling clip to near-white, while under-conveyor shadows go slightly noisy — typical smartphone limitation\"       },       \"atmosphere\": \"The factory is alive but the founder hasn't reached the heart of it yet. The assembly line is visible but angled away, not yet the dominant background element. The feeling is threshold — about to enter the action.\"     },      \"objects\": {       \"obj_001_founder\": {         \"body_positioning\": \"First stride onto the factory floor. Left foot forward, right foot just pushing off — the opening step of a purposeful walk. Weight shifting forward, body upright but with slight forward lean of someone initiating movement. Shoulders squared to camera. Arms at sides, not yet gesturing — the hands are relaxed, one possibly holding a slight fist (tension of the opening statement about frustration).\",         \"spatial_dominance\": \"Occupies center-frame vertically, positioned slightly left of center horizontally, allowing the factory line to be introduced on the right side of frame\",         \"attire\": {           \"blazer\": \"Tailored dark navy blazer, solid matte weave, no pattern. Structured shoulders but not stiff — the fabric has a slight natural drape from movement. Sleeves pushed up to mid-forearm, exposing wrists and the lower forearm. Single button unfastened for ease of movement.\",           \"top\": \"Solid white crew-neck underneath, visible at the open neckline and where the blazer lapels part. Clean, minimal.\",           \"trousers\": \"Fitted dark trousers, solid color matching the blazer's formality level. Clean break at the ankle. No wrinkle-free perfection — natural creasing at the hip from walking motion just initiated.\",           \"footwear\": \"Clean white minimalist sneakers — practical for a factory floor, visible in this wider framing. Slight scuffing on the toe caps suggesting real use, not pristine.\"         },         \"expression\": {           \"mood\": \"Determined entry — the face of someone about to deliver a statement they've been wanting to say. Brow slightly lowered, not angry but focused. Jaw set. Eyes locked directly on the camera lens.\",           \"mouth\": \"Lips just parting — the first syllable of 'I started this company...' is about to be spoken. Not a full open mouth, just the micro-moment before speech.\",           \"action\": \"The act of walking into the space and beginning to speak — this is the ignition frame, not the cruise frame\"         },         \"micro_texture\": [           \"Flyaway hair strands catching the overhead fluorescent light, creating thin bright lines against the darker factory background\",           \"Natural skin with realistic pore detail on the forehead and cheeks under the hard overhead light\",           \"Slight shadow under the eyes from overhead fluorescent angle — not stylized, just physics\",           \"Fabric micro-texture on the blazer visible at the shoulder and lapel edges\"         ]       },        \"obj_002_assembly_line\": {         \"description\": \"Factory assembly line visible in the right half of the background, angled diagonally from mid-right to far-right, not yet fully behind the founder\",         \"position\": \"Begins roughly 15 feet behind and to the right of the founder, extending away into the factory depth\",         \"state\": \"Active — components moving along the belt, but at this distance and angle the specific products are not clearly identifiable. The motion of the line is the key visual signal: things are moving, the factory is operational.\",         \"detail_level\": \"Mid-ground sharpness — you can see the conveyor structure, the moving components, the overhead fixtures above the line, but not fine product detail. The assembly stations have articulated arms and fixtures visible as industrial silhouettes.\",         \"lighting_on_line\": \"Dedicated task lights above each station create pools of brighter illumination along the line, punctuating the darker gaps between stations\"       },        \"obj_003_factory_floor_foreground\": {         \"description\": \"The factory floor surface and immediate environment framing the founder's entrance\",         \"elements\": [           \"Polished concrete floor with industrial gray epoxy coating, slightly worn with forklift tire marks and faded yellow safety walkway lines\",           \"A structural support column partially visible at the far left edge of frame — painted industrial gray, slight chipping at the base\",           \"A wall-mounted fire extinguisher and safety signage (red and white) on the left edge, slightly out of focus but readable as safety equipment\",           \"Overhead cable trays and conduit running along the ceiling, visible in the upper portion of the 9:16 frame\"         ],         \"floor_reflections\": \"The epoxy floor picks up faint reflections of the overhead fluorescents — streaky, not mirror-sharp, adding depth to the ground plane\"       },        \"obj_004_deep_background\": {         \"description\": \"The far end of the factory floor stretching behind the assembly line\",         \"elements\": [           \"Industrial shelving racks partially loaded with inventory bins, falling into soft bokeh\",           \"A distant exit sign glowing green-red above a doorway\",           \"One or two workers in the deep background, out of focus, moving between stations — establishing that this is an active facility with real people\",           \"The perspective lines of the ceiling, fluorescent rows, and floor markings all converge toward a vanishing point in the upper-right, creating strong depth\"         ],         \"depth_treatment\": \"Progressive defocus — the background is significantly softer than the founder, creating natural subject separation without artificial lighting tricks\"       }     },      \"semantic_relationships\": [       \"The founder is just entering the factory floor — the body language is forward momentum, the environment is being entered, not yet owned\",       \"The assembly line is visible but not yet dominant — it will grow in frame presence as the walk progresses\",       \"The camera operator is approximately 6 feet ahead, creating a natural conversation distance, shooting backward at eye level\",       \"The overhead fluorescents create repeating shadow patterns on the floor that the founder is about to walk through\",       \"The fire extinguisher and safety signage at frame edge ground the scene in real industrial regulation — not a set, a real factory\"     ]   },    \"aesthetic_controls\": {     \"render_intent\": \"The opening frame of a founder's walk-and-talk video. This should feel like the first second of a TikTok or Reel — the viewer's thumb is about to stop scrolling. The energy is kinetic potential: someone is about to walk and say something with conviction.\",     \"material_fidelity\": [       \"Concrete floor with realistic epoxy coating, tire marks, and wear patterns\",       \"Blazer fabric matte weave with natural drape — not stiff, not shiny\",       \"Industrial steel and aluminum on machinery and structural elements\",       \"Fluorescent tube casings with slight yellowing from age\",       \"White sneakers with realistic rubber and canvas texture, minor toe scuffing\"     ],     \"degradation\": {       \"grain\": \"Subtle luminance noise in shadow regions (under conveyor, dark corners), typical of smartphone sensor pushed to ISO 1600+ under artificial light\",       \"highlights\": \"Overhead fluorescent tubes clip to pure white — not controlled, not graded down. The ceiling is partially blown.\",       \"dynamic_range\": \"Limited — the smartphone is compressing the range between the bright ceiling fixtures and the darker floor-level shadows. HDR processing visible but imperfect.\",       \"white_balance\": \"Slightly cool overall from the fluorescent dominance, with the founder's skin tones pulling marginally warm from the corridor spill behind camera\",       \"compression\": \"Subtle block artifacts in the dark shadow regions, consistent with H.265 mobile video encoding\"     },     \"color_grade\": {       \"overall\": \"Cool industrial with slight green-cyan cast from fluorescent lighting — not corrected, not graded. This is how a phone sees a factory.\",       \"skin_tones\": \"Slightly cool but readable as natural — the warm fill from behind camera saves the skin from going fully sickly-green under the fluorescents\",       \"contrast\": \"Medium-high, driven by the hard overhead light source and limited sensor dynamic range\",       \"saturation\": \"Slightly muted — industrial environments don't have much color. The pops of color are the amber/green indicator lights on machinery and the yellow safety lines on the floor.\"     }   },    \"negative_prompt\": {     \"forbidden_elements\": [       \"Professional cinema lighting or grip equipment visible\",       \"Perfectly stabilized dolly-smooth camera motion\",       \"Empty or inactive factory (machinery must be running)\",       \"The founder standing still or posing (must be in first stride)\",       \"Clean, pristine factory floor (must show realistic wear and use)\",       \"Studio-quality skin lighting on the founder (the light should be industrial, not beauty)\"     ],     \"forbidden_style\": [       \"Corporate video production value\",       \"Stock photography aesthetic\",       \"Anime, illustration, or CGI render\",       \"Cinematic color grading or film emulation\",       \"Overly airbrushed or plastic skin texture\",       \"Fashion editorial composition\"     ]   } }"
+              ],
+              "_disabled": false,
+              "_spawnNum": 3
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 13,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -164,
+              -114
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  14
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 1",
+            "properties": {
+              "text": "{\n  \"scene\": 1,\n  \"title\": \"THE FRUSTRATION + EVIDENCE\",\n  \"timing\": \"0:00-0:08\",\n  \"duration\": \"8s\",\n  \"reference_frame\": \"scene-01-02-05-image-start.json (lab/development workspace)\",\n  \"profile\": \"default (modified: 165 WPM, high energy)\",\n  \"script_segment\": \"I used to dread shaving. Every time — bumps, irritation, ingrowns.\",\n  \"word_count\": 10,\n  \"speech_duration\": \"~3.6s\",\n  \"visual_beat\": \"~4.4s silent after dialogue\",\n\n  \"visual\": \"Static camera shot. Front-facing, eye level. She speaks directly to camera with natural frustration — the kind of energy you'd have venting to a friend. She holds a traditional razor loosely in her right hand. Natural hand gestures while talking — nothing choreographed, just the way someone moves when they're telling a story they're annoyed about. On 'bumps, irritation, ingrowns' she gestures with the razor hand for emphasis. After she finishes speaking, she drops the razor onto the counter and runs her hand along her forearm with a slight wince. Looks back at camera with a 'you know what I mean' expression.\",\n\n  \"audio\": \"DIALOGUE: \\\"I used to dread shaving. Every time — bumps, irritation, ingrowns.\\\"\\n\\nDELIVERY: Conversational but energized, 165 WPM. Real frustration, not performative — like telling a friend about a recurring annoyance. Emphasis on 'dread' and the list of 'bumps, irritation, ingrowns.' General American accent. After dialogue ends, 4.4 seconds of silence with ambient room tone only.\",\n\n  \"negative_prompt\": \"camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\",\n\n  \"prompt\": \"Static camera shot. Front-facing, eye level. She speaks directly to camera with natural frustration, venting to a friend. Holds a traditional razor loosely in her right hand. Natural hand gestures while talking. On 'bumps, irritation, ingrowns' she gestures with the razor for emphasis. After speaking, she drops the razor onto the counter and runs her hand along her forearm with a slight wince. Looks back at camera with a 'you know what I mean' expression.\\n\\nDIALOGUE: \\\"I used to dread shaving. Every time — bumps, irritation, ingrowns.\\\"\\n\\nDELIVERY: Conversational but energized, 165 WPM. Real frustration like telling a friend about a recurring annoyance. Emphasis on 'dread' and the list. General American accent. After dialogue, 4.4 seconds of silence with ambient room tone only.\\n\\nNegative prompt: camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\"\n}",
+              "variableName": "Prompt 18",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 1
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 32,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -213,
+              432
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  48
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 8",
+            "properties": {
+              "text": "{\n  \"scene\": 2,\n  \"title\": \"THE ORIGIN\",\n  \"timing\": \"0:08-0:14\",\n  \"duration\": \"6s\",\n  \"reference_frame\": \"scene-01-02-05-image-start.json (lab/development workspace)\",\n  \"profile\": \"default (modified: 165 WPM, high energy)\",\n  \"script_segment\": \"I tried everything. Nothing worked. So I thought — why don't I just make my own?\",\n  \"word_count\": 15,\n  \"speech_duration\": \"~5.5s\",\n  \"visual_beat\": \"~0.5s held reaction after dialogue\",\n\n  \"visual\": \"Static camera shot. Fixed angle, slightly wider framing than Scene 1. She starts frustrated — 'I tried everything' with an open palm sweep. 'Nothing worked' lands flat, maybe a small shrug or hands dropping. Then her energy shifts — 'So I thought' gets a little head tilt, a hint of a smile forming. 'Why don't I just make my own' is where the confidence arrives — she points at herself casually, a real smile breaks through. The kind of expression someone makes when they're proud of a bold decision. Quick nod at the end, cut.\",\n\n  \"audio\": \"DIALOGUE: \\\"I tried everything. Nothing worked. So I thought — why don't I just make my own?\\\"\\n\\nDELIVERY: 165 WPM. The energy shifts mid-scene — starts frustrated, ends confident. 'I tried everything' has weight. 'Nothing worked' is matter-of-fact. Then the tone lifts on 'So I thought' — she's getting to the good part. 'Make my own' lands with pride and a smile in her voice. General American accent.\",\n\n  \"negative_prompt\": \"camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\",\n\n  \"prompt\": \"Static camera shot. Fixed angle, slightly wider framing. She starts frustrated — 'I tried everything' with an open palm sweep. 'Nothing worked' lands flat, small shrug. Energy shifts — 'So I thought' gets a head tilt, hint of smile. 'Why don't I just make my own' — she points at herself, real smile breaks through. Quick nod, cut.\\n\\nDIALOGUE: \\\"I tried everything. Nothing worked. So I thought — why don't I just make my own?\\\"\\n\\nDELIVERY: 165 WPM. Shifts from frustrated to confident mid-scene. 'I tried everything' has weight. 'Nothing worked' is matter-of-fact. Tone lifts on 'So I thought.' 'Make my own' lands with pride and a smile. General American accent.\\n\\nNegative prompt: camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\"\n}",
+              "variableName": "Prompt 8",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 8
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 30,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -265,
+              1282
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  46
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 6",
+            "properties": {
+              "text": "{\n  \"scene\": 4,\n  \"title\": \"THE DEMO + PAYOFF\",\n  \"timing\": \"0:24-0:32\",\n  \"duration\": \"8s\",\n  \"reference_frame\": \"scene-03-04-image-start.json (bathroom demo)\",\n  \"profile\": \"default (modified: 165 WPM, high energy)\",\n  \"script_segment\": \"no nicks, no bumps, no irritation. Smooth skin. Every single time.\",\n  \"word_count\": 11,\n  \"speech_duration\": \"~4.0s\",\n  \"visual_beat\": \"~4.0s demo visuals + results payoff\",\n\n  \"visual\": \"Static camera shot. Fixed angle. She completes the demo glide on her forearm — smooth stroke. On 'no nicks, no bumps, no irritation' she gestures with her free hand, dismissing each one — natural hand movements, not choreographed. After the list, her energy settles. On 'Smooth skin' she runs her fingertips over the area she just shaved — feeling the result. Genuine satisfied expression. On 'Every single time' she looks at camera with quiet confidence and a small nod. Holds the look.\",\n\n  \"audio\": \"DIALOGUE: \\\"no nicks, no bumps, no irritation. Smooth skin. Every single time.\\\"\\n\\nDELIVERY: 165 WPM. 'No nicks, no bumps, no irritation' is quick and confident — ticking off a list. Then the pace drops for 'Smooth skin' — warmer, satisfied. 'Every single time' is calm and sure. The energy goes from listing to savoring. General American accent.\",\n\n  \"negative_prompt\": \"camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\",\n\n  \"prompt\": \"Static camera shot. Fixed angle. She completes a demo glide on her forearm. On 'no nicks, no bumps, no irritation' she gestures with her free hand, naturally dismissing each one. After the list, energy settles. On 'Smooth skin' she runs fingertips over the shaved area, genuine satisfied expression. On 'Every single time' she looks at camera with quiet confidence, small nod. Holds the look.\\n\\nDIALOGUE: \\\"no nicks, no bumps, no irritation. Smooth skin. Every single time.\\\"\\n\\nDELIVERY: 165 WPM. 'No nicks, no bumps, no irritation' is quick and confident, ticking off a list. Then pace drops for 'Smooth skin' — warmer, satisfied. 'Every single time' calm and sure. General American accent.\\n\\nNegative prompt: camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\"\n}",
+              "variableName": "Prompt 6",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 6
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 29,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -265,
+              1676
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  45
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 5",
+            "properties": {
+              "text": "{\n  \"scene\": 5,\n  \"title\": \"THE CLOSE\",\n  \"timing\": \"0:32-0:40\",\n  \"duration\": \"8s\",\n  \"reference_frame\": \"scene-01-02-05-image-start.json (lab/development workspace — bookend with Scene 1)\",\n  \"profile\": \"default (modified: 165 WPM, high energy)\",\n  \"script_segment\": \"I made this for every woman who's been let down by her razor. Link's right here — try it yourself.\",\n  \"word_count\": 19,\n  \"speech_duration\": \"~6.9s\",\n  \"visual_beat\": \"~1.1s held final expression\",\n\n  \"visual\": \"Static camera shot. Front-facing, same framing as Scene 1. She holds the Silk Glide Pro at chest level. On 'I made this' she briefly touches her chest — a natural self-referential gesture. On 'every woman' her hand opens toward camera. On 'who's been let down' her expression shows genuine understanding — she's been there. On 'Link's right here' she glances down briefly, then back to camera. On 'try it yourself' she points at camera with a confident smile. Holds the smile for the last second.\",\n\n  \"audio\": \"DIALOGUE: \\\"I made this for every woman who's been let down by her razor. Link's right here — try it yourself.\\\"\\n\\nDELIVERY: 165 WPM. Warm and direct — this is the personal close. 'I made this' has pride. 'Every woman who's been let down' is genuine, not preachy. 'Link's right here' is casual. 'Try it yourself' is an invitation with confidence. General American accent.\",\n\n  \"negative_prompt\": \"camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\",\n\n  \"prompt\": \"Static camera shot. Front-facing, same framing as Scene 1. She holds the Silk Glide Pro at chest level. On 'I made this' she briefly touches her chest. On 'every woman' her hand opens toward camera. On 'who's been let down' her expression shows genuine understanding. On 'Link's right here' she glances down briefly, then back to camera. On 'try it yourself' she points at camera with a confident smile. Holds the smile.\\n\\nDIALOGUE: \\\"I made this for every woman who's been let down by her razor. Link's right here — try it yourself.\\\"\\n\\nDELIVERY: 165 WPM. Warm and direct. 'I made this' has pride. 'Every woman who's been let down' is genuine. 'Link's right here' casual. 'Try it yourself' an invitation with confidence. General American accent.\\n\\nNegative prompt: camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\"\n}",
+              "variableName": "Prompt 5",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 5
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 20,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              690,
+              375
+            ],
+            "size": [
+              360,
+              462
+            ],
+            "flags": {},
+            "order": 18,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 48
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 41
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Scene 2",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "6",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": null,
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772412605102-videos/1772412605522-blpx5q-veo-1772412605522.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415021864-videos/1772415022379-uoalnl-veo-1772415022378.mp4"
+              ],
+              "_savedGalleryIndex": 1,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 2
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 23,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              664,
+              1162
+            ],
+            "size": [
+              360,
+              462.00006103515625
+            ],
+            "flags": {},
+            "order": 16,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 46
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 44
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Scene 4",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "4",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": null,
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415022711-videos/1772415023264-dxqjfv-veo-1772415023264.mp4"
+              ],
+              "_savedGalleryIndex": 0,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 5
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 21,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              233,
+              1631
+            ],
+            "size": [
+              360,
+              462.00006103515625
+            ],
+            "flags": {},
+            "order": 19,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 45
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 42
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Scene 5",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "8",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457527698-videos/1772457528214-wnlyo1-veo-1772457528213.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772412605439-videos/1772412606005-nw8uny-veo-1772412606005.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415030775-videos/1772415031376-0lbnll-veo-1772415031375.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457527698-videos/1772457528214-wnlyo1-veo-1772457528213.mp4"
+              ],
+              "_savedGalleryIndex": 2,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 3
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 22,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              205,
+              710
+            ],
+            "size": [
+              360,
+              462
+            ],
+            "flags": {},
+            "order": 15,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 47
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 43
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Scene 3",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "8",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457401490-videos/1772457402027-xxta1e-veo-1772457402027.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457401490-videos/1772457402027-xxta1e-veo-1772457402027.mp4"
+              ],
+              "_savedGalleryIndex": 0,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 4
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 31,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -245,
+              849
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  47
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 7",
+            "properties": {
+              "text": "{\n  \"scene\": 3,\n  \"title\": \"THE REVEAL + DEMO START\",\n  \"timing\": \"0:16-0:24\",\n  \"duration\": \"8s\",\n  \"reference_frame\": \"scene-03-04-image-start.json (bathroom demo)\",\n  \"profile\": \"default (modified: 165 WPM, high energy)\",\n  \"script_segment\": \"Meet Silk Glide Pro. Wireless. Designed for women's skin. Glides right over curves —\",\n  \"word_count\": 13,\n  \"speech_duration\": \"~4.7s\",\n  \"visual_beat\": \"~3.3s product reveal + demo start\",\n\n  \"visual\": \"Static camera shot. Front-facing angle. She raises the Silk Glide Pro into frame with her right hand — proud but not over-the-top, like showing a friend something she made. On 'Wireless' she gives it a casual turn in her hand to show there's no cord. On 'Designed for women's skin' she touches her own forearm briefly. On 'Glides right over curves' she brings the razor toward her forearm and starts a slow demo glide. Scene ends mid-demonstration — she's focused on what she's doing, confident in the result.\",\n\n  \"audio\": \"DIALOGUE: \\\"Meet Silk Glide Pro. Wireless. Designed for women's skin. Glides right over curves —\\\"\\n\\nDELIVERY: 165 WPM. Proud and direct — she's introducing something she built. 'Meet Silk Glide Pro' is clear and deliberate. 'Wireless' is punchy, standalone. 'Designed for women's skin' is warmer. 'Glides right over curves' flows naturally, trailing off as she starts the demo. General American accent.\",\n\n  \"negative_prompt\": \"camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\",\n\n  \"prompt\": \"Static camera shot. Front-facing angle. She raises the Silk Glide Pro into frame with her right hand — proud but natural, like showing a friend something she made. On 'Wireless' she turns it casually to show no cord. On 'Designed for women's skin' she touches her own forearm. On 'Glides right over curves' she brings the razor toward her forearm and starts a slow demo glide. Scene ends mid-demonstration.\\n\\nDIALOGUE: \\\"Meet Silk Glide Pro. Wireless. Designed for women's skin. Glides right over curves —\\\"\\n\\nDELIVERY: 165 WPM. Proud and direct. 'Meet Silk Glide Pro' is clear and deliberate. 'Wireless' punchy. 'Designed for women's skin' warmer. 'Glides right over curves' flows naturally, trailing off into the demo. General American accent.\\n\\nNegative prompt: camera movement, shaky cam, zooming, panning, dolly shots, tracking shots, handheld movement, monotone voice, flat affect, robotic speech, whispered speech, professional narrator voice, cartoonish eyes, bug eyes, exaggerated expressions, sound effects, whooshes, background music, ambient noise, fake excitement, infomercial style, shouting\"\n}",
+              "variableName": "Prompt 7",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 7
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 28,
+            "type": "nanobanana/Approval",
+            "pos": [
+              -812,
+              -71
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 14,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 39
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  40,
+                  41,
+                  42
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 2",
+            "properties": {
+              "variableName": "Approval 2",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457418298-images/1772457418812-40bmxr-approval-1772457418728.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457418298-images/1772457418812-40bmxr-approval-1772457418728.png",
+              "_autoRefineEnabled": false,
+              "_disabled": true,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457418298-images/1772457418812-40bmxr-approval-1772457418728.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 2,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 27,
+            "type": "nanobanana/Approval",
+            "pos": [
+              -892,
+              779
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 32
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  43,
+                  44
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 1",
+            "properties": {
+              "variableName": "Approval 1",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772414937686-images/1772414938285-btodci-file-1772414938185.bin",
+              "_lastApprovedData": null,
+              "_autoRefineEnabled": false,
+              "_disabled": true,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772414937686-images/1772414938285-btodci-file-1772414938185.bin"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 1,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 24,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              -1359,
+              619
+            ],
+            "size": [
+              360,
+              651
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 29
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 28
+              },
+              {
+                "name": "image 2",
+                "type": "image",
+                "link": 50
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  32
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Image 3",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 2,
+              "_disabled": true,
+              "_savedImages": [],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 3,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": true
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 2,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              -1228,
+              -110
+            ],
+            "size": [
+              280,
+              561
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 1
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 10
+              },
+              {
+                "name": "image 2",
+                "type": "image",
+                "link": 49
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  39
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Image 2",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "2K",
+              "timeout": 300000,
+              "imageCount": 2,
+              "_disabled": true,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457374124-images/1772457374614-t327mm-file-1772457374460.bin"
+              ],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 2,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": true
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 11,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              242,
+              -98
+            ],
+            "size": [
+              360,
+              466
+            ],
+            "flags": {
+              "collapsed": false
+            },
+            "order": 17,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 14
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 40
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Video 5",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "text-to-video",
+              "durationSeconds": "8",
+              "aspectRatio": "9:16",
+              "resolution": "1080p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 2,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457578636-videos/1772457579138-tk0fo6-veo-1772457579137.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772300618627-videos/1772300618743-julyjp-veo-1772300618743.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772323255048-videos/1772323255134-6fkij5-veo-1772323255134.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772412652120-videos/1772412652699-t8sqjt-veo-1772412652698.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415058285-videos/1772415058853-9lmb9e-veo-1772415058853.mp4",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772457578636-videos/1772457579138-tk0fo6-veo-1772457579137.mp4"
+              ],
+              "_savedGalleryIndex": 4,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 1
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          }
+        ],
+        "links": [
+          [
+            1,
+            1,
+            0,
+            2,
+            0,
+            "string"
+          ],
+          [
+            10,
+            5,
+            0,
+            2,
+            1,
+            "image"
+          ],
+          [
+            14,
+            13,
+            0,
+            11,
+            0,
+            "string"
+          ],
+          [
+            28,
+            26,
+            0,
+            24,
+            1,
+            "image"
+          ],
+          [
+            29,
+            25,
+            0,
+            24,
+            0,
+            "string"
+          ],
+          [
+            32,
+            24,
+            0,
+            27,
+            0,
+            "*"
+          ],
+          [
+            39,
+            2,
+            0,
+            28,
+            0,
+            "*"
+          ],
+          [
+            40,
+            28,
+            0,
+            11,
+            1,
+            "image"
+          ],
+          [
+            41,
+            28,
+            0,
+            20,
+            1,
+            "image"
+          ],
+          [
+            42,
+            28,
+            0,
+            21,
+            1,
+            "image"
+          ],
+          [
+            43,
+            27,
+            0,
+            22,
+            1,
+            "image"
+          ],
+          [
+            44,
+            27,
+            0,
+            23,
+            1,
+            "image"
+          ],
+          [
+            45,
+            29,
+            0,
+            21,
+            0,
+            "string"
+          ],
+          [
+            46,
+            30,
+            0,
+            23,
+            0,
+            "string"
+          ],
+          [
+            47,
+            31,
+            0,
+            22,
+            0,
+            "string"
+          ],
+          [
+            48,
+            32,
+            0,
+            20,
+            0,
+            "string"
+          ],
+          [
+            49,
+            33,
+            0,
+            2,
+            2,
+            "image"
+          ],
+          [
+            50,
+            34,
+            0,
+            24,
+            2,
+            "image"
+          ]
+        ],
+        "groups": [],
+        "config": {},
+        "extra": {
+          "nodeGroups": {}
+        },
+        "version": 0.4
+      },
+      "canvasState": {
+        "offsetX": 2204.026123046875,
+        "offsetY": 131.74899291992188,
+        "scale": 0.39142513012205277
+      },
+      "drawingData": [],
+      "saveCounter": 0
+    },
+    {
+      "name": "BRoll",
+      "graphData": {
+        "last_node_id": 27,
+        "last_link_id": 37,
+        "nodes": [
+          {
+            "id": 9,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -822,
+              527
+            ],
+            "size": [
+              320,
+              360
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  10,
+                  11
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Reference Image 1",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415423429-images/1772415423777-bd56k7-WhatsApp_Image_2026-02-06_at_16.36.42__1_.jpeg",
+              "filename": "WhatsApp Image 2026-02-06 at 16.36.42 (1).jpeg",
+              "width": 1080,
+              "height": 1080,
+              "variableName": "Reference Image 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": "5f4d4373-4fff-4c80-a2b3-3ece5e036f1e",
+              "_batchAssetIds": [],
+              "_spawnNum": 1
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 5,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -890,
+              947
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  1
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 2",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 1,\n  \"broll_title\": \"RAZOR BUMPS CLOSE-UP — END FRAME\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot A)\",\n  \"delta_from\": \"broll-01-image-start.json\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"change_from_start\": \"phone has pulled back slightly to show more skin area. Same casual handheld quality, same bathroom background\"\n  },\n\n  \"scene\": {\n    \"subject\": {\n      \"change_from_start\": \"wider view now — her fingertip is pressing into the bumpy skin, making an indent. The pressed area shows how raised and irritated the bumps are compared to the finger pressing down on them. More skin visible now, showing the bumps aren't just in one spot — they're spread across a larger area of the leg or forearm. The fingertip contact makes the texture unmistakable\"\n    }\n  },\n\n  \"narrative_prompt\": \"Same smartphone shot of razor-bumped skin, but now pulled back slightly to show a wider area. Her fingertip is pressing into the bumpy skin — you can see the indent where she's pushing, making the raised irritated texture impossible to miss. The bumps spread across more visible skin now, not just one small patch. Same casual handheld quality, same bathroom background, same UGC energy. She's poking at it the way you do when you're annoyed — showing someone how bad it actually is.\"\n}\n",
+              "variableName": "Prompt 2",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 2
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 4,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -958,
+              191
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  2
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 1",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 1,\n  \"broll_title\": \"RAZOR BUMPS CLOSE-UP\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot A)\",\n  \"duration\": \"4s\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"vantage\": \"handheld close-up, looking down at leg or forearm — the angle you'd use filming your own skin on your phone\",\n    \"framing\": \"close-up but not macro — skin fills most of frame, you can see enough context to know it's a leg or arm. The kind of zoom you'd do on your phone camera, not a dedicated macro lens\",\n    \"lens_behavior\": \"smartphone camera, ~26mm, portrait mode blur on background\",\n    \"sensor_quality\": \"digital grain, slightly soft focus — smartphone trying to focus close-up\",\n    \"shake\": \"slight handheld movement — she's holding her phone in one hand filming her own skin\"\n  },\n\n  \"scene\": {\n    \"environment\": {\n      \"setting\": \"bathroom — you can see blurred bathroom floor tiles or bathtub edge in the background. Not styled, just where she happened to notice the bumps\",\n      \"lighting\": {\n        \"key_light\": \"overhead bathroom light, slightly warm, nothing special\",\n        \"fill\": \"ambient bathroom lighting\",\n        \"quality\": \"even indoor light, not cinematic — just a bathroom\"\n      }\n    },\n\n    \"subject\": {\n      \"obj_001\": {\n        \"type\": \"skin showing razor bumps\",\n        \"description\": \"realistic female skin on upper leg or forearm showing everyday razor bumps — small raised red bumps, the kind most women get. Not extreme, not medical. Just annoying. Warm medium skin tone\",\n        \"texture\": \"natural skin, visible pores, slight redness around bumps, natural skin sheen\"\n      }\n    }\n  },\n\n  \"aesthetic_controls\": {\n    \"render_intent\": \"UGC smartphone close-up — like she pulled out her phone to show her friend what her skin looks like after shaving. Casual, not produced\",\n    \"degradation\": {\n      \"grain\": \"noticeable smartphone grain, slightly noisy image\",\n      \"dynamic_range\": \"limited — smartphone in bathroom light\",\n      \"color_science\": \"warm, slightly yellow from overhead bathroom light\"\n    }\n  },\n\n  \"negative_prompt\": {\n    \"forbidden_elements\": [\n      \"face visible\", \"severe skin condition\", \"bleeding\",\n      \"medical photography\", \"clinical setting\", \"macro lens quality\"\n    ],\n    \"forbidden_style\": [\n      \"anime\", \"CGI\", \"3D render\", \"illustration\",\n      \"stock photo\", \"professional photography\", \"studio lighting\",\n      \"beauty photography\", \"perfect composition\"\n    ]\n  },\n\n  \"narrative_prompt\": \"A smartphone close-up of skin on a leg or forearm showing everyday razor bumps — small raised red bumps, the kind most women get after shaving. Not extreme, just annoying and relatable. Shot looks like someone filming their own skin to show a friend — handheld, slightly shaky, phone trying to focus close-up. You can see blurred bathroom tiles or bathtub edge in the background. Overhead bathroom lighting, warm and even, nothing styled. Noticeable smartphone grain. Warm medium skin tone. 9:16 vertical. UGC energy — this is a frustrated selfie of bad skin, not a dermatology photo.\"\n}",
+              "variableName": "Prompt 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 1
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 8,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              972,
+              102
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  9
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 3",
+            "properties": {
+              "text": "{\n  \"broll\": 1,\n  \"title\": \"RAZOR BUMPS CLOSE-UP\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot A)\",\n  \"duration\": \"4s\",\n  \"reference_frame\": \"broll-01-image-start.json + broll-01-image-end.json (first-to-last frame)\",\n\n  \"visual\": \"Static camera shot. Handheld smartphone close-up of skin with razor bumps. Slight handheld drift throughout — she's holding her phone close to her skin, examining. At ~2s she tilts her arm or leg slightly, catching the light differently on the bumps. Subtle breathing movement. Camera shifts as she adjusts angle. Casual, like filming your own skin to send to a friend.\",\n\n  \"audio\": \"No dialogue. Ambient bathroom tone. No music.\",\n\n  \"negative_prompt\": \"camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, fast motion, macro lens quality, studio lighting, professional photography\",\n\n  \"prompt\": \"Static camera shot. Handheld smartphone close-up of skin with razor bumps. Slight handheld drift — she's holding her phone close, examining. At ~2s she tilts her arm slightly, catching light differently on the bumps. Subtle breathing movement. Casual, like filming your own skin to show a friend.\\n\\nNo dialogue. Ambient bathroom tone. No music.\\n\\nNegative prompt: camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, fast motion, macro lens quality, studio lighting, professional photography\"\n}",
+              "variableName": "Prompt 3",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 3
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 17,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              1121,
+              1248
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  23
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 6",
+            "properties": {
+              "text": "{\n  \"broll\": 2,\n  \"title\": \"RAZOR TOSS\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot B)\",\n  \"duration\": \"4s\",\n  \"reference_frame\": \"broll-02-image-start.json + broll-02-image-end.json (first-to-last frame)\",\n\n  \"visual\": \"Static camera shot. Handheld overhead-ish angle on bathroom counter. A woman's hand enters from top of frame holding a cheap disposable razor loosely. She drops it onto the counter casually. Razor lands with a light clatter. Hand pulls out of frame. Razor sits on the counter.\",\n\n  \"audio\": \"No dialogue. Ambient room tone, subtle clatter when razor lands. No music.\",\n\n  \"negative_prompt\": \"camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, dramatic lighting, slow motion, studio photography\",\n\n  \"prompt\": \"Static camera shot. Handheld overhead angle on bathroom counter. A woman's hand enters from top of frame holding a cheap disposable razor loosely. She drops it onto the counter casually. Razor lands with a light clatter. Hand pulls out of frame. Razor sits on the counter.\\n\\nNo dialogue. Ambient room tone, subtle clatter when razor lands. No music.\\n\\nNegative prompt: camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, dramatic lighting, slow motion, studio photography\"\n}",
+              "variableName": "Prompt 3",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 6
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 26,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              1185,
+              2654
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  34
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Prompt 9",
+            "properties": {
+              "text": "{\n  \"broll\": 3,\n  \"title\": \"SHAVING FRUSTRATION\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot C)\",\n  \"duration\": \"4s\",\n  \"reference_frame\": \"broll-03-image-start.json + broll-03-image-end.json (first-to-last frame)\",\n\n  \"visual\": \"Static camera shot. Handheld POV looking down at her own leg as she uses a disposable personal grooming device. Sitting on bathtub edge. The device makes a single stroke on her wet shin. She pauses, looks at the area — slight redness starting to appear. Brief pause of mild frustration. Everyday routine that never quite works.\",\n\n  \"audio\": \"No dialogue. Ambient bathroom sounds. No music.\",\n\n  \"negative_prompt\": \"camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, fast motion, dramatic lighting, studio photography, blood, injury\",\n\n  \"prompt\": \"Static camera shot. Handheld POV looking down at her own leg as she uses a disposable personal grooming device. Sitting on bathtub edge. Single stroke on her wet shin. She pauses, looks at the area — slight redness appearing. Brief frustration. Everyday routine.\\n\\nNo dialogue. Ambient bathroom sounds. No music.\\n\\nNegative prompt: camera movement, zooming, panning, dialogue, speech, voice, music, sound effects, face visible, fast motion, dramatic lighting, studio photography, blood, injury\"\n}",
+              "variableName": "Prompt 3",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 9
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 13,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -527,
+              1486
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  13
+                ]
+              }
+            ],
+            "title": "Prompt 4",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 2,\n  \"broll_title\": \"RAZOR TOSS\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot B)\",\n  \"duration\": \"4s\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"vantage\": \"handheld, looking down at bathroom counter — casual overhead-ish angle, not perfectly composed\",\n    \"framing\": \"counter surface with razor visible, hand entering from top of frame. Framing is slightly off-center, not styled\",\n    \"lens_behavior\": \"smartphone camera, ~26mm, auto-focus on counter\",\n    \"sensor_quality\": \"digital grain, smartphone in indoor light\",\n    \"shake\": \"slight handheld movement — she's filming one-handed\"\n  },\n\n  \"scene\": {\n    \"environment\": {\n      \"setting\": \"bathroom counter — same elevated bathroom as demo scenes but captured casually. Counter surface visible with some everyday items\",\n      \"lighting\": {\n        \"key_light\": \"natural morning light from window, warm\",\n        \"fill\": \"ambient bathroom light\",\n        \"quality\": \"natural, uncontrolled indoor light\"\n      }\n    },\n\n    \"subject\": {\n      \"obj_001\": {\n        \"type\": \"traditional disposable razor\",\n        \"description\": \"generic women's disposable razor — plastic handle (light purple or teal), 3-blade head. Cheap, unremarkable, the kind everyone has\",\n        \"positioning\": \"mid-toss — being dropped onto the counter by a woman's hand with casual 'I'm done' energy\"\n      },\n      \"obj_002\": {\n        \"type\": \"woman's hand\",\n        \"description\": \"warm medium skin tone, natural nails, relaxed fingers releasing the razor\",\n        \"positioning\": \"entering from top of frame, mid-release\"\n      }\n    }\n  },\n\n  \"aesthetic_controls\": {\n    \"render_intent\": \"UGC B-roll — casually tossing the old razor aside. Not a dramatic gesture, just the everyday 'throwing this in the drawer' energy\",\n    \"degradation\": {\n      \"grain\": \"smartphone grain, slightly noisy\",\n      \"dynamic_range\": \"limited — smartphone\",\n      \"color_science\": \"warm, natural\"\n    }\n  },\n\n  \"negative_prompt\": {\n    \"forbidden_elements\": [\n      \"face visible\", \"premium razor brands\", \"brand logos\",\n      \"blood or injury\", \"text overlays\", \"perfect composition\"\n    ],\n    \"forbidden_style\": [\n      \"anime\", \"CGI\", \"3D render\", \"illustration\",\n      \"stock photo\", \"commercial product photography\",\n      \"studio lighting\", \"beauty photography\"\n    ]\n  },\n\n  \"narrative_prompt\": \"A casual smartphone shot looking down at a bathroom counter. A woman's hand drops a cheap disposable women's razor onto the counter — generic purple plastic handle, 3-blade head. The hand is mid-release, fingers opening with casual 'I'm done with this' energy. Not dramatic, just dismissive. Counter has some everyday bathroom items partially visible. Warm natural light from a window, slightly off-center framing, handheld smartphone quality with visible grain. 9:16 vertical. The kind of shot someone would film one-handed while venting about their old razor.\"\n}",
+              "variableName": "Prompt 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 4
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 18,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -1184,
+              1719
+            ],
+            "size": [
+              320,
+              360
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  18,
+                  19
+                ]
+              }
+            ],
+            "title": "Reference Image 2",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415423429-images/1772415423777-bd56k7-WhatsApp_Image_2026-02-06_at_16.36.42__1_.jpeg",
+              "filename": "WhatsApp Image 2026-02-06 at 16.36.42 (1).jpeg",
+              "width": 1080,
+              "height": 1080,
+              "variableName": "Reference Image 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": "5f4d4373-4fff-4c80-a2b3-3ece5e036f1e",
+              "_batchAssetIds": [],
+              "_spawnNum": 2
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 14,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -669,
+              2025
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  12
+                ]
+              }
+            ],
+            "title": "Prompt 5",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 2,\n  \"broll_title\": \"RAZOR TOSS — END FRAME\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot B)\",\n  \"delta_from\": \"broll-02-image-start.json\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"change_from_start\": \"same overhead-ish handheld angle on the counter. Hand is completely gone from frame\"\n  },\n\n  \"scene\": {\n    \"subject\": {\n      \"change_from_start\": \"hand is gone. The cheap disposable razor lies on the counter where it landed — slightly crooked, blade head facing away. It looks small, cheap, and forgotten. The counter space around it is more visible now without the hand — just this sad little razor sitting by itself on the counter like an afterthought. The emptiness of the frame around the abandoned razor makes it look even more disposable\"\n    }\n  },\n\n  \"narrative_prompt\": \"Same casual overhead smartphone shot of the bathroom counter, but the hand is completely gone. The cheap purple disposable razor lies alone on the counter — slightly crooked where it landed, blade head angled away. The counter space around it is visible now, making the razor look small, cheap, and abandoned. No hand, no person — just a sad disposable razor sitting by itself. Same warm light, same smartphone quality, same off-center framing. The visual says 'I'm done with you.'\"\n}\n",
+              "variableName": "Prompt 2",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 5
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 27,
+            "type": "nanobanana/ReferenceImage",
+            "pos": [
+              -1236,
+              2897
+            ],
+            "size": [
+              320,
+              360
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  28,
+                  29
+                ]
+              }
+            ],
+            "title": "Reference Image 3",
+            "properties": {
+              "imageData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772415423429-images/1772415423777-bd56k7-WhatsApp_Image_2026-02-06_at_16.36.42__1_.jpeg",
+              "filename": "WhatsApp Image 2026-02-06 at 16.36.42 (1).jpeg",
+              "width": 1080,
+              "height": 1080,
+              "variableName": "Reference Image 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "batchImages": [],
+              "batchExecMode": "drip",
+              "_disabled": false,
+              "_imageAssetId": "5f4d4373-4fff-4c80-a2b3-3ece5e036f1e",
+              "_batchAssetIds": [],
+              "_spawnNum": 3
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 22,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -656,
+              2628
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  25
+                ]
+              }
+            ],
+            "title": "Prompt 7",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 3,\n  \"broll_title\": \"SHAVING FRUSTRATION\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot C)\",\n  \"duration\": \"4s\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"vantage\": \"handheld, looking down at her own leg — the POV of someone filming themselves shaving, sitting on the edge of a bathtub\",\n    \"framing\": \"medium shot of lower leg, shin visible, hand holding a disposable razor mid-stroke on the leg. Framing is casual — you can see the bathtub edge, maybe some shower products in the background blurred out\",\n    \"lens_behavior\": \"smartphone camera, ~26mm, auto-focus on the leg/razor area\",\n    \"sensor_quality\": \"digital grain, smartphone in bathroom light\",\n    \"shake\": \"noticeable handheld shake — she's literally filming with one hand while doing something with the other\"\n  },\n\n  \"scene\": {\n    \"environment\": {\n      \"setting\": \"bathroom — sitting on the edge of a bathtub or shower ledge. Casual, real bathroom environment. Some shaving cream or body wash visible nearby\",\n      \"lighting\": {\n        \"key_light\": \"overhead bathroom light, warm-ish, standard residential fixture\",\n        \"fill\": \"ambient bounce from bathroom walls and fixtures\",\n        \"quality\": \"standard indoor bathroom lighting, nothing styled\"\n      }\n    },\n\n    \"subject\": {\n      \"obj_001\": {\n        \"type\": \"lower leg being groomed\",\n        \"description\": \"woman's lower leg, shin area. Wet skin with some shaving cream or soap lather partially visible. Warm medium skin tone. She's mid-grooming routine — the everyday moment\",\n        \"texture\": \"wet skin with water droplets, some soap lather, natural\"\n      },\n      \"obj_002\": {\n        \"type\": \"disposable razor in hand\",\n        \"description\": \"same generic cheap disposable razor from broll-02 (light purple handle, 3-blade). Held in her right hand mid-stroke on the leg — the routine act that causes the bumps. Her grip is casual, practiced — she's done this a thousand times\",\n        \"positioning\": \"razor is on the leg, mid-stroke, angled for a standard grooming pass\"\n      }\n    }\n  },\n\n  \"aesthetic_controls\": {\n    \"render_intent\": \"UGC B-roll — the everyday grooming moment that causes all the problems. Shot like someone who propped their phone up or is filming one-handed to document their routine. Casual, relatable, slightly annoying energy\",\n    \"degradation\": {\n      \"grain\": \"noticeable smartphone grain\",\n      \"dynamic_range\": \"limited — bathroom fluorescent or overhead light\",\n      \"color_science\": \"warm, slightly flat — typical bathroom selfie quality\"\n    }\n  },\n\n  \"negative_prompt\": {\n    \"forbidden_elements\": [\n      \"face visible\", \"blood or injury\", \"cuts on skin\",\n      \"clinical setting\", \"professional photography setup\",\n      \"perfect composition\", \"beauty lighting\"\n    ],\n    \"forbidden_style\": [\n      \"anime\", \"CGI\", \"3D render\", \"illustration\",\n      \"stock photo\", \"commercial photography\",\n      \"studio lighting\", \"glamour shot\"\n    ]\n  },\n\n  \"narrative_prompt\": \"A casual smartphone shot looking down at a woman's lower leg as she uses a cheap disposable razor — the everyday grooming routine that causes razor bumps. She's sitting on the edge of a bathtub, wet skin with some soap lather, the generic purple-handled disposable razor mid-stroke on her shin. The shot is filmed like a POV selfie — one-handed, slightly shaky, handheld smartphone quality. You can see the bathtub edge and some blurred shower products in the background. Standard overhead bathroom lighting, nothing styled. Digital grain, slightly flat color. 9:16 vertical. The mundane moment everyone recognizes — the routine that never quite works out.\"\n}",
+              "variableName": "Prompt 1",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 7
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 23,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              -709,
+              3155
+            ],
+            "size": [
+              340,
+              220
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  24
+                ]
+              }
+            ],
+            "title": "Prompt 8",
+            "properties": {
+              "text": "{\n  \"style_mode\": \"raw_photoreal_high_fidelity\",\n  \"look\": \"social media realism, smartphone aesthetic, UGC B-roll for Meta ads\",\n  \"aspect_ratio\": \"9:16 vertical\",\n  \"broll_id\": 3,\n  \"broll_title\": \"SHAVING FRUSTRATION — END FRAME\",\n  \"used_in\": \"Video Plan Scene 2 — THE EVIDENCE (Shot C)\",\n  \"delta_from\": \"broll-03-image-start.json\",\n  \"requires\": [],\n\n  \"camera\": {\n    \"change_from_start\": \"same handheld POV angle looking down at her leg. Same casual framing, same bathtub edge visible\"\n  },\n\n  \"scene\": {\n    \"subject\": {\n      \"change_from_start\": \"the razor is now set down on the bathtub edge beside her leg — she's stopped mid-routine. The shin where she just passed shows a visible stripe of redness and irritation along the razor's path, clearly contrasting with the untouched skin around it. Her free hand is now touching the irritated area lightly with her fingertips, checking the damage. The contrast between the red irritated stripe and the normal surrounding skin is obvious\"\n    }\n  },\n\n  \"narrative_prompt\": \"Same casual smartphone POV looking down at her leg on the bathtub edge, but the routine has stopped. The disposable razor is set down on the bathtub rim beside her. Her shin shows a clear stripe of redness and irritation along the path where the razor just went — obvious contrast against the normal surrounding skin. Her free hand touches the irritated area lightly with her fingertips, feeling the damage. Same handheld quality, same bathroom setting, same UGC energy. The moment you stop shaving because it's clearly making things worse.\"\n}\n",
+              "variableName": "Prompt 2",
+              "_advancedOpen": false,
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_spawnNum": 8
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 7,
+            "type": "nanobanana/Approval",
+            "pos": [
+              144,
+              -94
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 15,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 5
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  8,
+                  35
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 2",
+            "properties": {
+              "variableName": "Approval 2",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456400857-images/1772456401389-arcicd-approval-1772456401372.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456400857-images/1772456401389-arcicd-approval-1772456401372.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456400857-images/1772456401389-arcicd-approval-1772456401372.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 2,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 6,
+            "type": "nanobanana/Approval",
+            "pos": [
+              936,
+              592
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 21,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 6
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  7
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 1",
+            "properties": {
+              "variableName": "Approval 1",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456422214-images/1772456422748-42ho4p-approval-1772456422738.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456422214-images/1772456422748-42ho4p-approval-1772456422738.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456422214-images/1772456422748-42ho4p-approval-1772456422738.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 1,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 25,
+            "type": "nanobanana/Approval",
+            "pos": [
+              780,
+              2657
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 17,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 26
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  32,
+                  37
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 6",
+            "properties": {
+              "variableName": "Approval 2",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456411170-images/1772456411703-2e4vfl-approval-1772456411693.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456433489-images/1772456434025-h2sfvo-approval-1772456434017.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456433489-images/1772456434025-h2sfvo-approval-1772456434017.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 6,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 24,
+            "type": "nanobanana/Approval",
+            "pos": [
+              762,
+              3156
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 23,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 27
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  33
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 5",
+            "properties": {
+              "variableName": "Approval 1",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456452634-images/1772456453170-zotwph-approval-1772456453143.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456452634-images/1772456453170-zotwph-approval-1772456453143.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456452634-images/1772456453170-zotwph-approval-1772456453143.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 5,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 1,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              -340,
+              180
+            ],
+            "size": [
+              360,
+              294
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 2
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 10
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  5
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Image 1",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456390450-images/1772456390959-wv4gqb-file-1772456390928.bin"
+              ],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 1,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 2,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              359,
+              588
+            ],
+            "size": [
+              360,
+              306.0000305175781
+            ],
+            "flags": {},
+            "order": 18,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 1
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 11
+              },
+              {
+                "name": "image 2",
+                "type": "image",
+                "link": 35
+              },
+              {
+                "name": "image 3",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  6
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Image 2",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 3,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456420893-images/1772456421425-6cbk4b-file-1772456421320.bin"
+              ],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 2,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 16,
+            "type": "nanobanana/Approval",
+            "pos": [
+              743,
+              1518
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 16,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 14
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  21,
+                  36
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 4",
+            "properties": {
+              "variableName": "Approval 2",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456374731-images/1772456375196-uv7590-approval-1772456375164.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456533094-images/1772456533627-yhnayv-approval-1772456533615.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456533094-images/1772456533627-yhnayv-approval-1772456533615.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 4,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 15,
+            "type": "nanobanana/Approval",
+            "pos": [
+              756,
+              2046
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 22,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 15
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  22
+                ],
+                "slot_index": 0
+              }
+            ],
+            "title": "Approval 3",
+            "properties": {
+              "variableName": "Approval 1",
+              "_advancedOpen": false,
+              "lastData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456554674-images/1772456555198-9v8048-approval-1772456555187.png",
+              "_lastApprovedData": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456554674-images/1772456555198-9v8048-approval-1772456555187.png",
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456554674-images/1772456555198-9v8048-approval-1772456555187.png"
+              ],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_spawnNum": 3,
+              "_savedCurrentMediaType": "image"
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 10,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              134,
+              1367
+            ],
+            "size": [
+              360,
+              266.0000534057617
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 13
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 18
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  14
+                ]
+              }
+            ],
+            "title": "Image 3",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456374720-images/1772456375186-69olkg-file-1772456375060.bin",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456390763-images/1772456391259-kfzpzi-file-1772456391225.bin",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456477818-images/1772456478351-7axw92-file-1772456478212.bin",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456496448-images/1772456496973-rnemdf-file-1772456496863.bin",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456529433-images/1772456529969-xw0a21-file-1772456529917.bin"
+              ],
+              "_savedPreviewIndex": 4,
+              "_spawnNum": 3,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 11,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              128,
+              1798
+            ],
+            "size": [
+              360,
+              306.00011444091797
+            ],
+            "flags": {},
+            "order": 19,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 12
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 19
+              },
+              {
+                "name": "image 2",
+                "type": "image",
+                "link": 36
+              },
+              {
+                "name": "image 3",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  15
+                ]
+              }
+            ],
+            "title": "Image 4",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 3,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456552311-images/1772456552845-7i60h0-file-1772456552800.bin"
+              ],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 4,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 19,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              145,
+              2585
+            ],
+            "size": [
+              360,
+              278
+            ],
+            "flags": {},
+            "order": 14,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 25
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 28
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  26
+                ]
+              }
+            ],
+            "title": "Image 5",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456388455-images/1772456388990-e6h6mp-file-1772456388960.bin",
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456432881-images/1772456433411-pok7ef-file-1772456433327.bin"
+              ],
+              "_savedPreviewIndex": 1,
+              "_spawnNum": 5,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 20,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              152,
+              3128
+            ],
+            "size": [
+              360,
+              306.00011444091797
+            ],
+            "flags": {},
+            "order": 20,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 24
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 29
+              },
+              {
+                "name": "image 2",
+                "type": "image",
+                "link": 37
+              },
+              {
+                "name": "image 3",
+                "type": "image",
+                "link": null
+              }
+            ],
+            "outputs": [
+              {
+                "name": "image",
+                "type": "image",
+                "links": [
+                  27
+                ]
+              }
+            ],
+            "title": "Image 6",
+            "properties": {
+              "model": "gemini-3.1-flash-image-preview",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 3,
+              "_disabled": false,
+              "_savedImages": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456452638-images/1772456453169-ajvxru-file-1772456453042.bin"
+              ],
+              "_savedPreviewIndex": 0,
+              "_spawnNum": 6,
+              "inputVariable": "",
+              "repeatCount": 1,
+              "_advancedOpen": false,
+              "_previewOpen": false
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 3,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              1444,
+              449
+            ],
+            "size": [
+              360,
+              462.0000305175781
+            ],
+            "flags": {},
+            "order": 24,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 9
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 8
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": 7
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Video 1",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "4",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456490446-videos/1772456490919-u7ko06-veo-1772456490919.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456489995-videos/1772456490528-u2mqsr-veo-1772456490528.mp4"
+              ],
+              "_savedGalleryIndex": 0,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 1
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 12,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              1607,
+              1767
+            ],
+            "size": [
+              360,
+              462.00006103515625
+            ],
+            "flags": {},
+            "order": 25,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 23
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 21
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": 22
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Video 2",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "4",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456617098-videos/1772456617613-cb1r17-veo-1772456617613.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456617018-videos/1772456617519-jmhqej-veo-1772456617518.mp4"
+              ],
+              "_savedGalleryIndex": 0,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 2
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          },
+          {
+            "id": 21,
+            "type": "nanobanana/Veo3",
+            "pos": [
+              1618,
+              2920
+            ],
+            "size": [
+              360,
+              462.00006103515625
+            ],
+            "flags": {},
+            "order": 26,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 34
+              },
+              {
+                "name": "first frame",
+                "type": "image",
+                "link": 32
+              },
+              {
+                "name": "last frame",
+                "type": "image",
+                "link": 33
+              }
+            ],
+            "outputs": [
+              {
+                "name": "video",
+                "type": "video",
+                "links": null
+              }
+            ],
+            "title": "Video 3",
+            "properties": {
+              "model": "veo-3.1-fast-generate-preview",
+              "mode": "frames-to-video",
+              "durationSeconds": "4",
+              "aspectRatio": "9:16",
+              "resolution": "720p",
+              "negativePrompt": "",
+              "sampleCount": 1,
+              "seed": 0,
+              "timeout": 600000,
+              "imageCount": 1,
+              "repeatCount": 1,
+              "_disabled": false,
+              "_savedVideoUrl": "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456510096-videos/1772456510629-ddq3vz-veo-1772456510629.mp4",
+              "_savedVideos": [
+                "https://pub-41d1d99ea47d442592b42ae71b588835.r2.dev/uploads/1772456510096-videos/1772456510629-ddq3vz-veo-1772456510629.mp4"
+              ],
+              "_savedGalleryIndex": 0,
+              "_savedGallerySlots": [],
+              "_advancedOpen": false,
+              "_previewOpen": true,
+              "inputVariable": "",
+              "_spawnNum": 3
+            },
+            "color": "#333",
+            "bgcolor": "#1a1a1a"
+          }
+        ],
+        "links": [
+          [
+            1,
+            5,
+            0,
+            2,
+            0,
+            "string"
+          ],
+          [
+            2,
+            4,
+            0,
+            1,
+            0,
+            "string"
+          ],
+          [
+            5,
+            1,
+            0,
+            7,
+            0,
+            "*"
+          ],
+          [
+            6,
+            2,
+            0,
+            6,
+            0,
+            "*"
+          ],
+          [
+            7,
+            6,
+            0,
+            3,
+            2,
+            "image"
+          ],
+          [
+            8,
+            7,
+            0,
+            3,
+            1,
+            "image"
+          ],
+          [
+            9,
+            8,
+            0,
+            3,
+            0,
+            "string"
+          ],
+          [
+            10,
+            9,
+            0,
+            1,
+            1,
+            "image"
+          ],
+          [
+            11,
+            9,
+            0,
+            2,
+            1,
+            "image"
+          ],
+          [
+            12,
+            14,
+            0,
+            11,
+            0,
+            "string"
+          ],
+          [
+            13,
+            13,
+            0,
+            10,
+            0,
+            "string"
+          ],
+          [
+            14,
+            10,
+            0,
+            16,
+            0,
+            "*"
+          ],
+          [
+            15,
+            11,
+            0,
+            15,
+            0,
+            "*"
+          ],
+          [
+            18,
+            18,
+            0,
+            10,
+            1,
+            "image"
+          ],
+          [
+            19,
+            18,
+            0,
+            11,
+            1,
+            "image"
+          ],
+          [
+            21,
+            16,
+            0,
+            12,
+            1,
+            "image"
+          ],
+          [
+            22,
+            15,
+            0,
+            12,
+            2,
+            "image"
+          ],
+          [
+            23,
+            17,
+            0,
+            12,
+            0,
+            "string"
+          ],
+          [
+            24,
+            23,
+            0,
+            20,
+            0,
+            "string"
+          ],
+          [
+            25,
+            22,
+            0,
+            19,
+            0,
+            "string"
+          ],
+          [
+            26,
+            19,
+            0,
+            25,
+            0,
+            "*"
+          ],
+          [
+            27,
+            20,
+            0,
+            24,
+            0,
+            "*"
+          ],
+          [
+            28,
+            27,
+            0,
+            19,
+            1,
+            "image"
+          ],
+          [
+            29,
+            27,
+            0,
+            20,
+            1,
+            "image"
+          ],
+          [
+            32,
+            25,
+            0,
+            21,
+            1,
+            "image"
+          ],
+          [
+            33,
+            24,
+            0,
+            21,
+            2,
+            "image"
+          ],
+          [
+            34,
+            26,
+            0,
+            21,
+            0,
+            "string"
+          ],
+          [
+            35,
+            7,
+            0,
+            2,
+            2,
+            "image"
+          ],
+          [
+            36,
+            16,
+            0,
+            11,
+            2,
+            "image"
+          ],
+          [
+            37,
+            25,
+            0,
+            20,
+            2,
+            "image"
+          ]
+        ],
+        "groups": [],
+        "config": {},
+        "extra": {
+          "nodeGroups": {}
+        },
+        "version": 0.4
+      },
+      "canvasState": {
+        "offsetX": -721.8345336914062,
+        "offsetY": -2497.34912109375,
+        "scale": 0.814027493868422
+      },
+      "drawingData": [],
+      "saveCounter": 0
+    }
+  ]
+}
