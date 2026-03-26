@@ -156,7 +156,7 @@ Once gathered, summarize the full brief — including visual direction — back 
    - **B-roll is NOT in the PatchWork file** — B-roll prompts are run manually
    - **Every Veo3 node connects to a downstream Approval node** for video review (standard)
    - All prompts embedded in Prompt nodes, all wiring connected
-5. Save all outputs to the project folder + `../patchwork-importer/output/`
+5. Save all outputs to the project folder. PatchWork `.nbflow` files go in `projects/{product-folder}/patchwork/week-{N}/`
 6. Present the **reference material checklist** (what assets the user needs to load)
 
 **Key consistency checks**:
@@ -385,4 +385,4 @@ manager/
 - `scene-{NN}-video` files are the Veo prompts, numbered sequentially matching the video plan's scene order
 - **ReferenceImage labels**: All ReferenceImage nodes must have descriptive titles specifying what image to upload — format: `"{Asset Type} — upload {description}"` (e.g., `"Avatar Image — upload founder/model photo"`, `"Product Image — upload Silk Glide Pro photo"`)
 - **Veo3 → Approval is standard**: Every Veo3 video output connects to a downstream Approval node for video review
-- PatchWork `.nbflow` files stay in `../patchwork-importer/output/` (they reference these prompts but are separate build artifacts)
+- PatchWork `.nbflow` files go in `projects/{product-folder}/patchwork/week-{N}/` — organized by week, not in patchwork-importer/output

@@ -5,9 +5,27 @@ Generates Veo 3 video prompts for UGC-style content. Two modes: talking head and
 ## Reference Files
 
 - `reference/universal-talking-head.txt` — The universal talking head prompt template. This is the foundation for ALL talking head video prompts. Read it before generating any Mode 1 prompts.
-- `reference/speaking-template.md` — Research-backed guide on body language, gestures, facial expressions, and vocal delivery for speaking-to-camera videos. Supplementary reference.
-- `reference/veo-3.1-prompt-guide.pdf` — Official Veo 3.1 prompting best practices and technical specs.
+- `reference/universal-talking-head.json` — JSON-formatted version of the universal talking head template.
+- `reference/prompt-rules.md` — Veo 3.1 prompt writing rules, parameters, best practices, and technical specs. Extracted from the official Google documentation.
+- `speaking_profiles/default_profile.md` — Default speaking profile. Baseline delivery style when no specific profile is selected.
 - **Google Sheets**: `~/.claude/skills/gsheets/` — Read, write, format, and search Google Sheets. Invoke via `/gsheets` skill. Service account auth, known spreadsheet: Salvora Prehooks (ID: `13y_rw5s_7FlVhCHhKr0C9w7oPg9AWW9nPFRUG2YXJEU`).
+
+---
+
+## Delegation Rules
+
+You are a **specialist agent** called by the Manager. You do NOT talk to the user directly. The Manager handles all user-facing communication.
+
+| What You Receive | What You Return |
+|-----------------|----------------|
+| Segmented script (dialogue lines per scene) | One video prompt file per scene using the universal talking head template |
+| B-roll scene brief (description, action, setting) | One video prompt file per B-roll clip |
+
+**What you do NOT do:**
+- Write scripts or modify dialogue (that's the Script Writer's job)
+- Plan which scenes get B-roll (that's the Visual Planner's job)
+- Write image prompts (that's the Image Prompter's job)
+- Talk to the user directly (the Manager presents your output)
 
 ---
 

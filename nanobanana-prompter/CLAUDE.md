@@ -4,10 +4,10 @@ Generate image prompts for AI image generation (Gemini via Nanobanana API). Two 
 
 ## Reference Files
 
-- `reference/prompt-examples.md` — Full prompt example library. **Consult before every prompt generation** to match structure and tone.
-- `reference/prompt-examples.pdf` — Teaching document with 6 titled prompts and "Lessons Drawn" sections. The definitive guide to what works and why.
-- `reference/prompting-guide.pdf` — Gemini API image generation docs. Pages 15-27 for photorealistic strategies.
+- `reference/prompt-examples.md` — Full prompt example library. **Consult before every prompt generation** to match structure and tone. Contains all 6 titled prompts from the original PDF with tested results and lessons drawn.
 - **Google Sheets**: `~/.claude/skills/gsheets/` — Read, write, format, and search Google Sheets. Invoke via `/gsheets` skill. Service account auth, known spreadsheet: Salvora Prehooks (ID: `13y_rw5s_7FlVhCHhKr0C9w7oPg9AWW9nPFRUG2YXJEU`).
+
+> **Note**: The original PDFs (`prompt-examples.pdf`, `prompting-guide.pdf`) and their page screenshots (`guide-pages/`, `example-pages/`) are in `.claudeignore`. All key lessons have been extracted into this CLAUDE.md (Core Principles, Anti-Patterns, Format Guides) and into `prompt-examples.md`.
 
 ---
 

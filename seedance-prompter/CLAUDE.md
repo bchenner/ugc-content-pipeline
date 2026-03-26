@@ -8,6 +8,7 @@ Seedance 2.0 supports up to 9 reference images per generation, native synchroniz
 
 - `reference/universal-talking-head.txt` — Universal talking head template. Foundation for ALL speaking prompts. Read before generating any Mode 1 prompts.
 - `reference/universal-broll.txt` — Universal B-roll template. Foundation for ALL B-roll prompts. Read before generating any Mode 2 prompts.
+- `test-prompts/` — Example prompts for reference. Includes `scene-01-video.txt` (speaking example), `broll-01-video.txt` (B-roll example), and additional B-roll variants.
 
 ---
 

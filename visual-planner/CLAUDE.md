@@ -18,6 +18,13 @@ You do NOT talk to the user directly. The Manager presents your output and handl
 
 ---
 
+## Reference Files
+
+- `reference/video-types/` — Video type detail files (13 types + 5 prehook subtypes). Read the relevant type file when planning a video.
+- `reference/video-types/prehooks/` — Prehook type files. See `prehooks/README.md` for the index.
+
+---
+
 ## Video Types
 
 Different video formats require different visual planning approaches. Read the relevant reference file before planning.
@@ -40,9 +47,28 @@ Different video formats require different visual planning approaches. Read the r
 
 When the Manager passes you a brief, determine the video type first, then read the corresponding reference file before building the storyboard. If the type isn't listed, default to Talking Head.
 
+### Hook vs. Prehook
+
+**Hook** = the first line of the main body script. It is PART of the main video. Every video has one. The script writer builds it into the script.
+
+**Prehook** = an optional separate clip (2-5s) that plays BEFORE the main body. It is NOT part of the main video — it is a separate asset assembled in post-production. A visual scroll-stopper that creates curiosity before the speaker appears.
+
+**When prehooks are needed:**
+- Storytelling formats (confession, podcast authority) where the main body is a static talking head. The prehook provides the visual scroll-stop that the format itself lacks.
+- When rotating multiple visual hooks against the same body script (A/B testing which prehook drives more retention).
+- When the script's opening hook is verbal (story, question) rather than visual — a prehook adds the visual punch.
+
+**When prehooks are NOT needed:**
+- Mixed-Media Animation — the cycling 3D renders and visual mode changes ARE the visual hook. The format is inherently scroll-stopping.
+- Practitioner Demo — the hands-on action (making tea, applying remedy) IS the visual hook. Unusual physical activity stops the scroll.
+- Recipe Demo PiP — ingredient close-ups filling the frame are visually distinct from standard content.
+- Any format where the video type itself provides a strong visual pattern interrupt.
+
+**Rule of thumb:** If the format looks like "person sitting and talking," it probably needs a prehook. If the format looks visually unusual or action-driven, the format IS the hook.
+
 ### Prehook Types
 
-Prehooks are the opening 2-15 seconds before the main body. They are separate clips assembled in post. See `reference/video-types/prehooks/README.md` for the index and individual type files:
+When a prehook IS used, choose from these types. They are separate clips assembled in post. See `reference/video-types/prehooks/README.md` for the index:
 
 | Prehook Type | File | What's On Screen |
 |-------------|------|-----------------|

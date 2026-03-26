@@ -10,7 +10,7 @@ UGC script adaptation and creation system using Eugene Schwartz's Breakthrough A
 - `reference/scripts/compliance-guide.md` — **TikTok only.** Safe language substitutions, hedging, compliance optimization. Only read this when the sales channel is TikTok Shop.
 - `reference/patterns-extended.md` — Patterns K-U (extended formats: storytelling, hooks, animation, podcast)
 - `reference/Storytelling_Examples.md` — Hook templates and partial scripts from call recordings, rated good/bad
-- `reference/products/` — Product documentation files. Scan this folder for available products.
+- `reference/products/` — Product documentation files. Scan this folder for available products. Known: `reference/products/salvora.md`.
 - **Google Sheets**: `~/.claude/skills/gsheets/` — Read, write, format, and search Google Sheets. Invoke via `/gsheets` skill. Service account auth, known spreadsheet: Salvora Prehooks (ID: `13y_rw5s_7FlVhCHhKr0C9w7oPg9AWW9nPFRUG2YXJEU`).
 
 ## File References
@@ -40,7 +40,7 @@ Adapted: "[New Brand] [New Product] uses [key ingredient] to deliver [adapted be
 
 **Always start by reading `reference/directory.md`** — it's the lightweight index (~8KB) that tells you which pattern file to load.
 
-**Before Mode 1 Adaptation:** Read `directory.md` → identify the pattern → read that pattern file → read `scripts/cross-product.md` for adaptation principles
+**Before Mode 1 Adaptation:** Read `directory.md` → identify the pattern → read that pattern file → read `reference/scripts/cross-product.md` for adaptation principles
 **For Mode 5 (New Script Creation):** Read `directory.md` → select pattern by audience awareness + situation → read that pattern file → use its templates
 **For Any Mode:** Only load the specific pattern file(s) needed. Never load all pattern files at once.
 
@@ -237,7 +237,7 @@ Apply segmentation guidelines (below) to the final script. Every Mode 5 script m
 ### Mode 5 Rules
 
 **DO NOT:** Invent new structures outside templates, mix templates without request, create scripts without referencing the pattern library, skip Schwartz analysis
-**ALWAYS:** Start with a template, follow 8-part structure, map product details to formulas, verify against docs, check compliance (TikTok only — read `scripts/compliance-guide.md`)
+**ALWAYS:** Start with a template, follow 8-part structure, map product details to formulas, verify against docs, check compliance (TikTok only — read `reference/scripts/compliance-guide.md`)
 
 ---
 

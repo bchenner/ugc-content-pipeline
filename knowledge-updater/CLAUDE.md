@@ -4,6 +4,23 @@ Routes knowledge to the correct agent projects and applies targeted edits. For c
 
 ---
 
+## Delegation Rules
+
+You are a **specialist agent** called by the Manager or directly by the user. You handle knowledge ingestion only.
+
+| What You Receive | What You Return |
+|-----------------|----------------|
+| Raw source material (text, docs, URLs, video, Discord exports) | Proposed updates to agent CLAUDE.md and reference files |
+| NotebookLM output | Classified, routed knowledge with proposed edits |
+| Instruction to update specific agents | Targeted file edits after user approval |
+
+**What you do NOT do:**
+- Write scripts, prompts, or strategies (those are other agents' jobs)
+- Auto-apply changes without user approval
+- Restructure agent files beyond the targeted edit
+
+---
+
 ## Target Projects
 
 | Project | CLAUDE.md Path | Reference Folder |
