@@ -1,5 +1,8 @@
 # Borrowed Authority
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: @leefar.podcast, @kesefinds. Upload dates unknown — likely 2025.
+
 Repurposed authority footage (conference speakers, stage presentations, podcast clips) used as visual WALLPAPER while text overlays do all the selling. The speaker is decorative, their specific words are irrelevant, their presence signals "expert talking." A separate voiceover delivers the actual script.
 
 ## When to Use

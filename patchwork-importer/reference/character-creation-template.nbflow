@@ -1,0 +1,788 @@
+{
+  "format": "ducted-project",
+  "version": "0.8.5",
+  "name": "Character Creation Template",
+  "tabs": [
+    {
+      "name": "ES-2 Character Creation",
+      "graphData": {
+        "last_node_id": 12,
+        "last_link_id": 11,
+        "nodes": [
+          {
+            "id": 1,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              100,
+              100
+            ],
+            "size": [
+              400,
+              300
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "1. Prompt: ES-2 Portrait (from scratch)",
+            "properties": {
+              "text": "{\n  \"subject\": {\n    \"description\": \"A Latino man in his late twenties, looking directly into the camera with a slight smolder, chin tilted down just a fraction, one eyebrow barely raised, shoulders square and broad filling the frame\",\n    \"age\": \"late 20s to early 30s\",\n    \"expression\": \"intense direct eye contact, lips slightly parted like he is about to speak, confident bordering on cocky but with warmth behind the eyes, not smiling but the corners of his mouth hint at it\"\n  },\n  \"face\": {\n    \"structure\": \"razor sharp jawline with visible jaw muscles, high prominent cheekbones that catch the light, straight nose with a subtle bridge, strong chin, symmetrical bone structure\",\n    \"eyebrows\": \"thick dark eyebrows, naturally full with a defined arch, slightly furrowed adding intensity\",\n    \"eyes\": \"vivid green eyes, bright and piercing, the kind of green that stands out against tan skin, clear and saturated, focal point of the entire image\",\n    \"skin\": \"warm golden tan, healthy sun kissed tone, not pale at all, light stubble across the jaw and upper lip, about two days of growth, adds ruggedness without looking unkempt\",\n    \"note\": \"this is a casting portrait to lock the face, render all facial features with full clarity\"\n  },\n  \"hair\": {\n    \"color\": \"dark brown, almost black\",\n    \"style\": \"medium length on top, textured and tousled like he just ran his hands through it, pieces falling naturally across the forehead, not styled with product but has natural volume and movement, shorter on the sides but blended and soft, not a sharp line up or hard fade, more like a model off duty than a fresh barbershop cut\"\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted athletic t shirt\",\n      \"color\": \"dark charcoal grey\",\n      \"details\": \"stretches across broad muscular shoulders and defined arms, plain fabric, no logos, no patterns\"\n    }\n  },\n  \"accessories\": {\n    \"wrist\": {\n      \"type\": \"black fitness tracker\",\n      \"details\": \"worn on left wrist, matte black band, minimal digital display\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"smartphone portrait mode, close and personal\",\n    \"angle\": \"eye level, straight on\",\n    \"shot_type\": \"head and shoulders, tight crop just below the collarbone\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"sharp focus on face especially the eyes, soft natural light, social media realism, clean skin detail without airbrushing\"\n  },\n  \"background\": {\n    \"setting\": \"plain neutral studio wall\",\n    \"wall_color\": \"medium grey, flat and featureless\",\n    \"elements\": [],\n    \"atmosphere\": \"simple, clean, nothing competing with the subject\",\n    \"lighting\": \"soft natural window light from the front and slightly to the left, gentle enough to show facial structure and jawline definition without harsh shadows, a subtle catch light in both eyes to make the green pop, NOT professional studio lighting\"\n  }\n}\n",
+              "variableName": "Prompt: ES-2 Portrait (from scratch)",
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_advancedOpen": false,
+              "_spawnNum": 1
+            },
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  1
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              600,
+              100
+            ],
+            "size": [
+              360,
+              294
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "2. Generate: ES-2 Portrait (from scratch)",
+            "properties": {
+              "model": "nano_banana_2",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 0,
+              "outputCount": 4,
+              "repeatCount": 1,
+              "inputVariable": "",
+              "_disabled": false,
+              "_savedImages": [],
+              "_savedPreviewIndex": 0,
+              "_advancedOpen": false,
+              "_previewOpen": false,
+              "_pinned": false,
+              "_spawnNum": 2,
+              "text": "{\n  \"subject\": {\n    \"description\": \"A Latino man in his late twenties, looking directly into the camera with a slight smolder, chin tilted down just a fraction, one eyebrow barely raised, shoulders square and broad filling the frame\",\n    \"age\": \"late 20s to early 30s\",\n    \"expression\": \"intense direct eye contact, lips slightly parted like he is about to speak, confident bordering on cocky but with warmth behind the eyes, not smiling but the corners of his mouth hint at it\"\n  },\n  \"face\": {\n    \"structure\": \"razor sharp jawline with visible jaw muscles, high prominent cheekbones that catch the light, straight nose with a subtle bridge, strong chin, symmetrical bone structure\",\n    \"eyebrows\": \"thick dark eyebrows, naturally full with a defined arch, slightly furrowed adding intensity\",\n    \"eyes\": \"vivid green eyes, bright and piercing, the kind of green that stands out against tan skin, clear and saturated, focal point of the entire image\",\n    \"skin\": \"warm golden tan, healthy sun kissed tone, not pale at all, light stubble across the jaw and upper lip, about two days of growth, adds ruggedness without looking unkempt\",\n    \"note\": \"this is a casting portrait to lock the face, render all facial features with full clarity\"\n  },\n  \"hair\": {\n    \"color\": \"dark brown, almost black\",\n    \"style\": \"medium length on top, textured and tousled like he just ran his hands through it, pieces falling naturally across the forehead, not styled with product but has natural volume and movement, shorter on the sides but blended and soft, not a sharp line up or hard fade, more like a model off duty than a fresh barbershop cut\"\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted athletic t shirt\",\n      \"color\": \"dark charcoal grey\",\n      \"details\": \"stretches across broad muscular shoulders and defined arms, plain fabric, no logos, no patterns\"\n    }\n  },\n  \"accessories\": {\n    \"wrist\": {\n      \"type\": \"black fitness tracker\",\n      \"details\": \"worn on left wrist, matte black band, minimal digital display\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"smartphone portrait mode, close and personal\",\n    \"angle\": \"eye level, straight on\",\n    \"shot_type\": \"head and shoulders, tight crop just below the collarbone\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"sharp focus on face especially the eyes, soft natural light, social media realism, clean skin detail without airbrushing\"\n  },\n  \"background\": {\n    \"setting\": \"plain neutral studio wall\",\n    \"wall_color\": \"medium grey, flat and featureless\",\n    \"elements\": [],\n    \"atmosphere\": \"simple, clean, nothing competing with the subject\",\n    \"lighting\": \"soft natural window light from the front and slightly to the left, gentle enough to show facial structure and jawline definition without harsh shadows, a subtle catch light in both eyes to make the green pop, NOT professional studio lighting\"\n  }\n}\n"
+            },
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 1,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "images",
+                "type": "image",
+                "links": [
+                  2
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "nanobanana/Media",
+            "pos": [
+              1100,
+              100
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "3. Approve: ES-2 Portrait (from scratch)",
+            "properties": {
+              "variableName": "Approve: ES-2 Portrait (from scratch)",
+              "mode": "approve",
+              "lastData": null,
+              "_lastApprovedData": null,
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_advancedOpen": false,
+              "_spawnNum": 3,
+              "_savedCurrentMediaType": "image",
+              "galleryImages": [],
+              "galleryVideos": [],
+              "galleryIndex": 0,
+              "_savedGalleryImages": [],
+              "_savedGalleryVideos": [],
+              "_savedGalleryIndex": 0,
+              "imageData": null,
+              "filename": "",
+              "imageWidth": 0,
+              "imageHeight": 0,
+              "_imageAssetId": null,
+              "_pages": [],
+              "_pageIndex": 0,
+              "_savedRowMapping": {},
+              "text": "{\n  \"subject\": {\n    \"description\": \"A Latino man in his late twenties, looking directly into the camera with a slight smolder, chin tilted down just a fraction, one eyebrow barely raised, shoulders square and broad filling the frame\",\n    \"age\": \"late 20s to early 30s\",\n    \"expression\": \"intense direct eye contact, lips slightly parted like he is about to speak, confident bordering on cocky but with warmth behind the eyes, not smiling but the corners of his mouth hint at it\"\n  },\n  \"face\": {\n    \"structure\": \"razor sharp jawline with visible jaw muscles, high prominent cheekbones that catch the light, straight nose with a subtle bridge, strong chin, symmetrical bone structure\",\n    \"eyebrows\": \"thick dark eyebrows, naturally full with a defined arch, slightly furrowed adding intensity\",\n    \"eyes\": \"vivid green eyes, bright and piercing, the kind of green that stands out against tan skin, clear and saturated, focal point of the entire image\",\n    \"skin\": \"warm golden tan, healthy sun kissed tone, not pale at all, light stubble across the jaw and upper lip, about two days of growth, adds ruggedness without looking unkempt\",\n    \"note\": \"this is a casting portrait to lock the face, render all facial features with full clarity\"\n  },\n  \"hair\": {\n    \"color\": \"dark brown, almost black\",\n    \"style\": \"medium length on top, textured and tousled like he just ran his hands through it, pieces falling naturally across the forehead, not styled with product but has natural volume and movement, shorter on the sides but blended and soft, not a sharp line up or hard fade, more like a model off duty than a fresh barbershop cut\"\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted athletic t shirt\",\n      \"color\": \"dark charcoal grey\",\n      \"details\": \"stretches across broad muscular shoulders and defined arms, plain fabric, no logos, no patterns\"\n    }\n  },\n  \"accessories\": {\n    \"wrist\": {\n      \"type\": \"black fitness tracker\",\n      \"details\": \"worn on left wrist, matte black band, minimal digital display\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"smartphone portrait mode, close and personal\",\n    \"angle\": \"eye level, straight on\",\n    \"shot_type\": \"head and shoulders, tight crop just below the collarbone\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"sharp focus on face especially the eyes, soft natural light, social media realism, clean skin detail without airbrushing\"\n  },\n  \"background\": {\n    \"setting\": \"plain neutral studio wall\",\n    \"wall_color\": \"medium grey, flat and featureless\",\n    \"elements\": [],\n    \"atmosphere\": \"simple, clean, nothing competing with the subject\",\n    \"lighting\": \"soft natural window light from the front and slightly to the left, gentle enough to show facial structure and jawline definition without harsh shadows, a subtle catch light in both eyes to make the green pop, NOT professional studio lighting\"\n  }\n}\n"
+            },
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 2,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  5
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              100,
+              700
+            ],
+            "size": [
+              400,
+              300
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "4. Prompt: ES-2 Character Sheet",
+            "properties": {
+              "text": "{\n  \"format\": \"plain_text\",\n  \"reference_input\": \"Approved portrait from step 1 (es2-step1-portrait)\",\n  \"character_reference\": {\n    \"instruction\": \"Use the attached portrait as the absolute ground truth for the subject's facial features, skin texture, and bone structure. The face in all three views must be a 1:1 match of the portrait provided.\",\n    \"face\": {\n      \"preserve_original\": true\n    }\n  },\n  \"prompt\": \"A character reference sheet of a Latino man in his late twenties, warm medium tan skin, dark brown almost black hair with a clean tapered fade on the sides and longer textured top swept to one side, thick dark eyebrows with a natural arch, striking vivid green eyes, strong angular jawline, high cheekbones, straight nose, clean shaven. Three vertically stacked photos filling the entire frame edge to edge with no gaps, no borders, no dividing lines between them. Top third: front facing headshot, relaxed neutral expression, looking directly at camera. Middle third: three quarter view, head turned slightly to the right. Bottom third: full side profile facing right. All three shots are shoulders up, wearing a fitted dark charcoal grey athletic t shirt that stretches across broad muscular shoulders and defined arms. Black fitness tracker on left wrist. No makeup, natural bare skin. Shot on a smartphone against a plain light grey wall, natural window light from the left, social media realism. --ar 9:16 --no borders, frames, dividing lines, white space between photos, text, labels, tattoos, jewelry, brown eyes, facial hair, beard, stubble, patterns on clothing, 3d render\",\n  \"notes\": \"This sheet becomes the MASTER character reference for all future images. Attach the approved step 1 portrait as the reference image input when generating.\"\n}\n",
+              "variableName": "Prompt: ES-2 Character Sheet",
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_advancedOpen": false,
+              "_spawnNum": 4
+            },
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  3
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              600,
+              700
+            ],
+            "size": [
+              360,
+              294
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "5. Generate: ES-2 Character Sheet",
+            "properties": {
+              "model": "nano_banana_2",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "outputCount": 4,
+              "repeatCount": 1,
+              "inputVariable": "",
+              "_disabled": false,
+              "_savedImages": [],
+              "_savedPreviewIndex": 0,
+              "_advancedOpen": false,
+              "_previewOpen": false,
+              "_pinned": false,
+              "_spawnNum": 5
+            },
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 3,
+                "label": " "
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 5,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "images",
+                "type": "image",
+                "links": [
+                  4
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "nanobanana/Media",
+            "pos": [
+              1100,
+              700
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "6. Approve: ES-2 Character Sheet",
+            "properties": {
+              "variableName": "Approve: ES-2 Character Sheet",
+              "mode": "approve",
+              "lastData": null,
+              "_lastApprovedData": null,
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_advancedOpen": false,
+              "_spawnNum": 6,
+              "_savedCurrentMediaType": "image",
+              "galleryImages": [],
+              "galleryVideos": [],
+              "galleryIndex": 0,
+              "_savedGalleryImages": [],
+              "_savedGalleryVideos": [],
+              "_savedGalleryIndex": 0,
+              "imageData": null,
+              "filename": "",
+              "imageWidth": 0,
+              "imageHeight": 0,
+              "_imageAssetId": null,
+              "_pages": [],
+              "_pageIndex": 0,
+              "_savedRowMapping": {}
+            },
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 4,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [
+                  8,
+                  11
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              100,
+              1300
+            ],
+            "size": [
+              400,
+              300
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "7. Prompt: ES-2 PiP (white background)",
+            "properties": {
+              "text": "{\n  \"reference_input\": \"Approved character reference sheet from step 2 (es2-step2-charsheet)\",\n  \"character_reference\": {\n    \"instruction\": \"Use the attached character reference sheet as the absolute ground truth for the subject's facial features, skin texture, and body proportions. The output must be a 1:1 match of the character provided.\",\n    \"face\": {\n      \"preserve_original\": true\n    }\n  },\n  \"subject\": {\n    \"description\": \"A Latino man in his late twenties taking a selfie, phone held in his right hand at arm's length, mid sentence and speaking directly at the camera with confident energy, slight forward lean, left hand relaxed at his side. Muscular build visible through his shirt, broad shoulders, defined arms.\",\n    \"age\": \"late 20s to early 30s\",\n    \"expression\": \"mid sentence, speaking to camera, confident direct eye contact, warm self assured energy\"\n  },\n  \"face\": {\n    \"preserve_original\": true,\n    \"skin\": \"warm medium tan, clear and healthy, clean shaven\"\n  },\n  \"hair\": {\n    \"color\": \"dark brown almost black\",\n    \"style\": \"short on the sides with a clean fade, longer on top and styled with texture, swept slightly to one side\"\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted dark grey athletic t shirt\",\n      \"color\": \"dark charcoal grey\",\n      \"details\": \"performance fabric stretching across chest and shoulders, crew neck, plain, no logos or prints\"\n    }\n  },\n  \"accessories\": {\n    \"wrist\": {\n      \"type\": \"black fitness tracker\",\n      \"details\": \"worn on left wrist, simple black band, small digital face\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"front facing smartphone selfie at arm's length\",\n    \"angle\": \"slightly above eye level, classic selfie angle\",\n    \"shot_type\": \"upper body, chest and above, vertical composition\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"bright even flat lighting, sharp focus, no shadows, social media realism, clean edges for background removal\"\n  },\n  \"background\": {\n    \"setting\": \"pure white background, completely empty\",\n    \"wall_color\": \"pure white, seamless\",\n    \"elements\": [],\n    \"atmosphere\": \"clean isolation for background removal, no objects, no textures, no environment\",\n    \"lighting\": \"bright even lighting from all directions, no cast shadows, no directional light, flat and uniform for clean edge separation\"\n  },\n  \"--no\": \"background objects, environment, shadows, professional lighting rigs, studio equipment, patterns on clothing, jewelry, tattoos, bokeh, 3d render, brown eyes, facial hair, beard, stubble\"\n}\n",
+              "variableName": "Prompt: ES-2 PiP (white background)",
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_advancedOpen": false,
+              "_spawnNum": 7
+            },
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  6
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              600,
+              1300
+            ],
+            "size": [
+              360,
+              294
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "8. Generate: ES-2 PiP (white background)",
+            "properties": {
+              "model": "nano_banana_2",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "outputCount": 4,
+              "repeatCount": 1,
+              "inputVariable": "",
+              "_disabled": false,
+              "_savedImages": [],
+              "_savedPreviewIndex": 0,
+              "_advancedOpen": false,
+              "_previewOpen": false,
+              "_pinned": false,
+              "_spawnNum": 8
+            },
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 6,
+                "label": " "
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 8,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "images",
+                "type": "image",
+                "links": [
+                  7
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "type": "nanobanana/Media",
+            "pos": [
+              1100,
+              1300
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "9. Approve: ES-2 PiP (white background)",
+            "properties": {
+              "variableName": "Approve: ES-2 PiP (white background)",
+              "mode": "approve",
+              "lastData": null,
+              "_lastApprovedData": null,
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_advancedOpen": false,
+              "_spawnNum": 9,
+              "_savedCurrentMediaType": "image",
+              "galleryImages": [],
+              "galleryVideos": [],
+              "galleryIndex": 0,
+              "_savedGalleryImages": [],
+              "_savedGalleryVideos": [],
+              "_savedGalleryIndex": 0,
+              "imageData": null,
+              "filename": "",
+              "imageWidth": 0,
+              "imageHeight": 0,
+              "_imageAssetId": null,
+              "_pages": [],
+              "_pageIndex": 0,
+              "_savedRowMapping": {}
+            },
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 7,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "type": "nanobanana/Prompt",
+            "pos": [
+              100,
+              1900
+            ],
+            "size": [
+              400,
+              300
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "10. Prompt: ES-2 Full Frame (apartment)",
+            "properties": {
+              "text": "{\n  \"reference_input\": \"Approved character reference sheet from step 2 (es2-step2-charsheet)\",\n  \"character_reference\": {\n    \"instruction\": \"Use the attached character reference sheet as the absolute ground truth for the subject's facial features, skin texture, and body proportions. The output must be a 1:1 match of the character provided.\",\n    \"face\": {\n      \"preserve_original\": true\n    }\n  },\n  \"subject\": {\n    \"description\": \"A Latino man in his late twenties standing in his apartment, mid sentence and speaking to the camera with easy confidence, one hand gesturing at chest height while the other rests on the counter beside him, slight head tilt like he is explaining something. Muscular build visible through his shirt, broad shoulders filling the frame, defined arms stretching the sleeves.\",\n    \"age\": \"late 20s to early 30s\",\n    \"expression\": \"mid sentence, confident warm smile, direct eye contact, slight head tilt, talking to camera with natural charisma\"\n  },\n  \"face\": {\n    \"preserve_original\": true,\n    \"skin\": \"warm medium tan, clear and healthy, clean shaven\"\n  },\n  \"hair\": {\n    \"color\": \"dark brown almost black\",\n    \"style\": \"short on the sides with a clean fade, longer on top and styled with texture, swept slightly to one side\"\n  },\n  \"clothing\": {\n    \"top\": {\n      \"type\": \"fitted dark grey athletic t shirt\",\n      \"color\": \"dark charcoal grey\",\n      \"details\": \"performance fabric stretching across chest and shoulders, crew neck, plain, no logos or prints\"\n    }\n  },\n  \"accessories\": {\n    \"wrist\": {\n      \"type\": \"black fitness tracker\",\n      \"details\": \"worn on left wrist, simple black band, small digital face\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"smartphone propped on a shelf, slightly off center framing\",\n    \"angle\": \"eye level, subject positioned slightly left of center\",\n    \"shot_type\": \"upper body, chest and above, vertical composition\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"natural window light, social media realism, sharp but not professional, iPhone video frame quality\"\n  },\n  \"background\": {\n    \"setting\": \"clean modern apartment living space, minimalist but lived in\",\n    \"wall_color\": \"white to light warm grey\",\n    \"elements\": [\n      \"monstera plant in a simple pot near the window\",\n      \"floating wooden shelf with a few supplement bottles and a pair of wireless earbuds\",\n      \"rolled up yoga mat leaning against the wall\",\n      \"shaker bottle sitting on the kitchen counter behind him\"\n    ],\n    \"atmosphere\": \"real apartment belonging to someone who takes fitness seriously, casual and comfortable, not a studio\",\n    \"lighting\": \"natural daylight from a window on the left side, soft and directional, NOT professional lighting, not ring light\"\n  },\n  \"--no\": \"professional lighting, studio setup, gym, tattoos, jewelry, patterns on clothing, bokeh, 3d render, brown eyes, facial hair, beard, stubble\"\n}\n",
+              "variableName": "Prompt: ES-2 Full Frame (apartment)",
+              "batchMode": false,
+              "templateMode": false,
+              "dynamicMode": false,
+              "dynamicRows": [
+                ""
+              ],
+              "_disabled": false,
+              "_advancedOpen": false,
+              "_spawnNum": 10
+            },
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "links": [
+                  9
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "type": "nanobanana/NanobananaAPI",
+            "pos": [
+              600,
+              1900
+            ],
+            "size": [
+              360,
+              294
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "11. Generate: ES-2 Full Frame (apartment)",
+            "properties": {
+              "model": "nano_banana_2",
+              "aspectRatio": "9:16",
+              "resolution": "1K",
+              "timeout": 300000,
+              "imageCount": 1,
+              "outputCount": 4,
+              "repeatCount": 1,
+              "inputVariable": "",
+              "_disabled": false,
+              "_savedImages": [],
+              "_savedPreviewIndex": 0,
+              "_advancedOpen": false,
+              "_previewOpen": false,
+              "_pinned": false,
+              "_spawnNum": 11
+            },
+            "inputs": [
+              {
+                "name": "prompt",
+                "type": "string",
+                "link": 9,
+                "label": " "
+              },
+              {
+                "name": "image 1",
+                "type": "image",
+                "link": 11,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "images",
+                "type": "image",
+                "links": [
+                  10
+                ],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "nanobanana/Media",
+            "pos": [
+              1100,
+              1900
+            ],
+            "size": [
+              360,
+              400
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "color": "#333",
+            "bgcolor": "#1a1a1a",
+            "title": "12. Approve: ES-2 Full Frame (apartment)",
+            "properties": {
+              "variableName": "Approve: ES-2 Full Frame (apartment)",
+              "mode": "approve",
+              "lastData": null,
+              "_lastApprovedData": null,
+              "_autoRefineEnabled": false,
+              "_disabled": false,
+              "_savedApprovalImages": [],
+              "_savedApprovalVideos": [],
+              "_savedApprovalIndex": 0,
+              "_savedApprovalVideoIndex": 0,
+              "_advancedOpen": false,
+              "_spawnNum": 12,
+              "_savedCurrentMediaType": "image",
+              "galleryImages": [],
+              "galleryVideos": [],
+              "galleryIndex": 0,
+              "_savedGalleryImages": [],
+              "_savedGalleryVideos": [],
+              "_savedGalleryIndex": 0,
+              "imageData": null,
+              "filename": "",
+              "imageWidth": 0,
+              "imageHeight": 0,
+              "_imageAssetId": null,
+              "_pages": [],
+              "_pageIndex": 0,
+              "_savedRowMapping": {}
+            },
+            "inputs": [
+              {
+                "name": "input",
+                "type": "*",
+                "link": 10,
+                "label": " "
+              }
+            ],
+            "outputs": [
+              {
+                "name": "output",
+                "type": "image",
+                "links": [],
+                "slot_index": 0,
+                "label": " "
+              }
+            ]
+          }
+        ],
+        "links": [
+          [
+            1,
+            1,
+            0,
+            2,
+            0,
+            "string"
+          ],
+          [
+            2,
+            2,
+            0,
+            3,
+            0,
+            "*"
+          ],
+          [
+            3,
+            4,
+            0,
+            5,
+            0,
+            "string"
+          ],
+          [
+            4,
+            5,
+            0,
+            6,
+            0,
+            "*"
+          ],
+          [
+            5,
+            3,
+            0,
+            5,
+            1,
+            "image"
+          ],
+          [
+            6,
+            7,
+            0,
+            8,
+            0,
+            "string"
+          ],
+          [
+            7,
+            8,
+            0,
+            9,
+            0,
+            "*"
+          ],
+          [
+            8,
+            6,
+            0,
+            8,
+            1,
+            "image"
+          ],
+          [
+            9,
+            10,
+            0,
+            11,
+            0,
+            "string"
+          ],
+          [
+            10,
+            11,
+            0,
+            12,
+            0,
+            "*"
+          ],
+          [
+            11,
+            6,
+            0,
+            11,
+            1,
+            "image"
+          ]
+        ],
+        "groups": [],
+        "config": {},
+        "extra": {
+          "nodeGroups": {}
+        },
+        "version": 0.4
+      },
+      "canvasState": {
+        "offsetX": 0,
+        "offsetY": 0,
+        "scale": 0.5
+      },
+      "drawingData": [],
+      "saveCounter": 0
+    }
+  ]
+}

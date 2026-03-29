@@ -1,5 +1,8 @@
 # Green Screen Commentary
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: No specific account. Format documented from general analysis.
+
 Speaker at bottom-center of the frame (waist-up, ~30-40% of screen), with a green screen background replaced by evidence: screenshots, articles, ingredient lists, competitor labels, studies, or diagrams. The visual evidence is the main content. The speaker provides narration and reactions.
 
 Highest-converting format for supplement micro-practitioners (10k-50k followers). Builds authority through visible proof rather than verbal claims alone.

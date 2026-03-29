@@ -1,5 +1,8 @@
 # Hybrid Two-Part
 
+<!-- analysis-date: 2026-03-27 -->
+> **Reference data**: Analyzed 2026-03-27. Source accounts: amazon_cracked_heels, burner_004. From Amazon Content Plan videos. Upload dates unknown.
+
 Two distinct visual formats joined by a hard cut within a single video. The first half uses one format (typically visually rich: mixed-media PiP, reaction overlay, or B-roll montage) to hook and establish the problem. The second half switches to a different format (typically static: talking head, storytelling confession) to deliver the sell and CTA.
 
 The hard cut between halves IS the structural hook. The visual register shift signals "now I'm going to tell you the real answer."

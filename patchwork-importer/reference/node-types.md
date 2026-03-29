@@ -10,7 +10,7 @@ Every node must include these fields:
   "type": "nanobanana/NodeType",
   "pos": [100, 100],
   "size": [340, 220],
-  "flags": { "hide_title": true },
+  "flags": {},
   "order": 0,
   "mode": 0,
   "color": "#333",
@@ -26,7 +26,7 @@ Every node must include these fields:
 - `mode` — Always `0` for active nodes
 - `color` — Always `"#333"`
 - `bgcolor` — Always `"#1a1a1a"`
-- `flags` — Always `{ "hide_title": true }`
+- `flags` — Always `{}` (empty object — do NOT use `hide_title: true` or titles won't display)
 - **All input/output slots** must include `"label": " "` (single space) alongside name, type, link/links, and slot_index
 
 ---
@@ -88,9 +88,9 @@ Template inputs are defined in the node's `inputs` array — one slot per variab
 
 ---
 
-## 2. ReferenceImage (`nanobanana/ReferenceImage`)
+## 2. Media — Reference Mode (`nanobanana/Media` with `mode: "reference"`)
 
-Image source node. No inputs, one output.
+Image source node. One input (unused in reference mode), one output. The old type name `nanobanana/ReferenceImage` still works (aliased to Media) but `nanobanana/Media` is canonical.
 
 | Property | Type | Default | Notes |
 |----------|------|---------|-------|
@@ -147,7 +147,7 @@ Image generation via Gemini. Prompt input + optional image inputs.
 
 | Property | Type | Default | Notes |
 |----------|------|---------|-------|
-| `model` | string | `"gemini-3.1-flash-image-preview"` | Gemini model |
+| `model` | string | `"nano_banana_2"` | Model ID. G-Labs uses `nano_banana_2`; direct Gemini uses `gemini-3.1-flash-image-preview` |
 | `aspectRatio` | string | `"9:16"` | |
 | `resolution` | string | `"1K"` | 512px, 1K, 2K, 4K |
 | `timeout` | number | `300000` | ms |
@@ -183,9 +183,15 @@ Add more image slots as needed: `{ "name": "image 2", "type": "image", "link": n
 
 ---
 
-## 4. Approval (`nanobanana/Approval`)
+## 4. Media — Approve Mode (`nanobanana/Media` with `mode: "approve"`)
 
-Manual review gate. Pauses workflow until user approves the generated image/video.
+Manual review gate. Pauses workflow until user approves the generated image/video. The old type name `nanobanana/Approval` still works (aliased to Media) but `nanobanana/Media` is canonical.
+
+Features in approve mode:
+- **Lock on Send**: After clicking Send, the node locks and preserves approved data across workflow runs
+- **Per-page approvals**: In batch/dynamic mode, each generation gets its own tab with individual approve/reject
+- **Unapprove**: Click to unlock and accept new inputs
+- **Rerun**: Auto-unlocks and re-generates from upstream
 
 | Property | Type | Default | Notes |
 |----------|------|---------|-------|
@@ -272,9 +278,9 @@ Video generation via Veo 3.1.
 
 ---
 
-## 6. Media (`nanobanana/Media`)
+## 6. Media — Preview Mode (`nanobanana/Media` with `mode: "preview"`)
 
-Standalone reference/approval hybrid. Used to feed approved images as references into downstream nodes (e.g., providing an already-approved image to a NanobananaAPI or Veo3 without re-generating it).
+Preview/display node. Used to feed approved images as references into downstream nodes or to display output without an approval gate. All three Media modes (`reference`, `approve`, `preview`) share the same node type `nanobanana/Media` — only the `mode` property differs.
 
 | Property | Type | Default | Notes |
 |----------|------|---------|-------|

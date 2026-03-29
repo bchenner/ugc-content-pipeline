@@ -1,5 +1,8 @@
 # Storytelling Confession
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: @misshealer_ (3 videos), @sheisapaigeturner. Upload dates unknown — likely 2025.
+
 A structural variant of Talking Head where the face IS the B-roll. Zero camera movement, zero cutaways, zero production. All visual energy comes from emotional performance and caption timing. The imperfect, unstaged environment is the credibility signal.
 
 ## When to Use

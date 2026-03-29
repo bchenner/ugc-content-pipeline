@@ -1,5 +1,8 @@
 # Recipe Demo PiP
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: amazon_restore_hair. From Amazon Content Plan. Upload date unknown.
+
 Demo footage dominates the frame. The speaker appears as a small picture-in-picture (PiP) circle in the corner. The visual focus is on ingredients, mixing, and application, not the speaker's face.
 
 ## When to Use

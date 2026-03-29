@@ -275,6 +275,58 @@ Full storytelling framework (6-beat structure, approved angles, visual rules, op
 
 ---
 
+## Comment-Driven Engagement Rules <!-- date: 2026-03 -->
+
+Every script should be optimized for comment engagement. Based on analysis of 930 top comments across 48 viral videos (March 2026):
+
+### 1. One Quotable Line Per Script
+Every script needs ONE line that could be screenshotted and shared on its own.
+- Growth content: A reframe — "You're not lazy. Your body is in survival mode."
+- Sales content: A specific, visceral story detail
+- This line should be in the first 10 seconds when possible
+
+### 2. Create Mild Debate
+Frame educational content as "most people think X, but actually Y" to create a pick-your-side dynamic.
+- "Stop drinking coffee first thing" — some will agree, some will defend their coffee
+- "You don't need a new diet" — challenges the dieting industry, invites pushback
+- Debate = comments = algorithm boost
+
+### 3. Specificity Triggers Confessions
+The more concrete and embarrassing the symptom/feeling, the more viewers confess their own version.
+- "Canceling plans because you're too tired to shower" > "feeling tired all the time"
+- "8 years. No ring." > "he wasted my time"
+- Pattern V (Expert Ranking) excels here — honest product critique triggers "me too" product sharing
+
+### 4. Anti-Pattern: The Naestradamus Warning
+Long meandering stories that bury the product reveal get hate comments. Top negative comments on supplement storytelling videos: "The longest infomercial ever", "What a waste of time", "My first mistake was listening to you." Keep it tight. Every line must advance the story.
+
+Source: `manager/research/creator-scrape/comments/analysis.md`
+
+---
+
+## SALVORA CAMPAIGN RULES <!-- date: 2026-03 -->
+
+### Approved Angles (use ONLY these for sales content)
+- **Menopause**: Hot flashes, mood swings, sleep loss, relationship strain
+- **Looking old / unattractive**: Husband left for younger, lost glow, aging shame
+- **Loss of female energy**: Burnt out mom, project manager of the house, running on empty
+- **Stress**: Chronic stress destroying relationships, health, joy
+- **Loss of sexual drive**: Intimacy breakdown, partner resentment, low desire
+
+### Banned Angles (NEVER use)
+- **Cortisol**: Do NOT use the word "cortisol" anywhere in any script. Replace with "stress," "your body's stress response," "chronic stress"
+- **Weight loss**: No belly fat, no body transformation, no "lose weight" framing
+- **Body transformation claims**: No "look 10 years younger," no before/after body changes
+
+### Script Format Rules
+- Retention hooks at 10-second and 30-second marks in every script
+- No hyphens in script text (use commas or periods)
+- Benefits framed as patient/personal experience, not medical claims ("my patients tell me" not "this cures")
+- For storytelling scripts: the supplement is discovered from a trusted friend or family member, NEVER a doctor or ad
+- For authority scripts (doctor/nurse POV): frame as "what I recommend" not "what cures"
+
+---
+
 ## TIKTOK COMPLIANCE QUICK REFERENCE
 
 ### NEVER Use:

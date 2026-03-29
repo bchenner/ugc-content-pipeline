@@ -1,5 +1,8 @@
 # Practitioner Demo
 
+<!-- analysis-date: 2026-03-27 -->
+> **Reference data**: Analyzed 2026-03-27. Source accounts: @ardenremedy (3 videos). Videos downloaded 2026-03-27. Upload dates within ~2 weeks of download.
+
 Full-frame AI avatar performs a hands-on remedy or treatment on camera. The avatar is NOT a small PiP overlay — they occupy the full frame and physically demonstrate the technique: applying paste to a patient's skin, holding ice to their own foot, mixing ingredients on a table in front of them. The avatar is both speaker and practitioner.
 
 Reference: @ardenremedy (3 videos analyzed, 36-80s) — AI elderly Chinese healer demonstrating remedies in outdoor pergola setting.

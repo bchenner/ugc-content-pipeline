@@ -1,5 +1,8 @@
 # Mixed-Media Animation
 
+<!-- analysis-date: 2026-03-27 -->
+> **Reference data**: Analyzed 2026-03-27. Source accounts: @catpnut, amazon_yellow_teeth, hook_fb2, hook_fb5, burner_b006. Original @catpnut analysis date unknown. Amazon videos from content plan (likely early 2026).
+
 Background visuals cycle between multiple rendered styles (3D anatomy, photorealistic AI scenes, recipe close-ups, product renders) while a speaker provides the voiceover. The speaker is either invisible (pure voiceover) or composited as a small PiP overlay in the bottom corner.
 
 Two sub-variants exist based on whether a speaker appears on screen.

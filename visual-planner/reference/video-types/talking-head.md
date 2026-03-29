@@ -1,5 +1,8 @@
 # Talking Head
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: General format. Standard format, not tied to a specific dated video.
+
 The standard UGC format. Avatar speaks directly to camera, full-screen. B-roll clips cut in as brief cutaways during speaking scenes.
 
 ## When to Use

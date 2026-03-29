@@ -1,5 +1,8 @@
 # Podcast Authority
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: @dailyhealthtalk. Upload date unknown — likely 2025.
+
 Two-segment format: silent before/after transformation prehook, then hard cut to a static podcast desk setup. Speaker sits at a desk with a large podcast microphone, bookshelf backdrop, and authority props. The frame locks for the entire main body with no camera switches or B-roll cutaways.
 
 ## When to Use

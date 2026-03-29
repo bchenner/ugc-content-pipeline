@@ -1,5 +1,8 @@
 # Faceless Hands-Only Demo
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: No specific account. Format documented from general analysis, no specific dated video.
+
 No face visible. Only hands, product, and surface. Text overlays carry the message alongside a continuous product demonstration. Common in skincare application, unboxing, product comparison, and "watch this" demos.
 
 Fully AI-feasible since no face consistency is needed. The hands and product are the entire visual.

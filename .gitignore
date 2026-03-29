@@ -37,6 +37,10 @@ skills/notebooklm/data/
 # Gsheets setup output
 skills/gsheets/setup/
 
+# Sensitive content (API keys, credentials, secrets)
+.sensitive/
+*.env
+
 # System files
 __pycache__/
 *.pyc

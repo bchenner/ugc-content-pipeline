@@ -1,5 +1,8 @@
 # Text-Wall Over B-Roll
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: @carly_unfiltered (17.8M views). Upload date unknown.
+
 No speaker visible. Looping B-roll clips fill the screen while large bold text overlay carries the entire message. The text IS the script. Background music or ambient audio only.
 
 Example: @carly_unfiltered style (17.8M views). Easiest format to produce with AI since there is no face consistency to maintain.

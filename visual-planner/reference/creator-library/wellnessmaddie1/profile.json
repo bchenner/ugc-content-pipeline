@@ -1,0 +1,80 @@
+{
+  "username": "wellnessmaddie1",
+  "platform": "instagram",
+  "scanned_at": "2026-03-28T00:58:07.407601",
+  "scan_dir": "C:\\Users\\Privat\\AppData\\Local\\Temp\\video-analysis\\scan-wellnessmaddie1",
+  "total_viral_videos": 10,
+  "videos": [
+    {
+      "id": "DV_OCI8EV88",
+      "views": 256603,
+      "date": "2026-03-17",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DV_OCI8EV88_card.json"
+    },
+    {
+      "id": "DV7M3r0EWuK",
+      "views": 196913,
+      "date": "2026-03-16",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DV7M3r0EWuK_card.json"
+    },
+    {
+      "id": "DV4su-YkU-Y",
+      "views": 132798,
+      "date": "2026-03-15",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DV4su-YkU-Y_card.json"
+    },
+    {
+      "id": "DVR82v0EVdo",
+      "views": 129987,
+      "date": "2026-02-28",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/3Oh7lx4\n\n#health #womenshea",
+      "card": "DVR82v0EVdo_card.json"
+    },
+    {
+      "id": "DVUlaUfEUQv",
+      "views": 78754,
+      "date": "2026-03-01",
+      "caption": "Did you know? 🤫\n\nGet the best moringa on Amazon 👇\nhttps://am",
+      "card": "DVUlaUfEUQv_card.json"
+    },
+    {
+      "id": "DVvoeMZke1c",
+      "views": 77665,
+      "date": "2026-03-11",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DVvoeMZke1c_card.json"
+    },
+    {
+      "id": "DVen_lfETV8",
+      "views": 71665,
+      "date": "2026-03-04",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DVen_lfETV8_card.json"
+    },
+    {
+      "id": "DVmgTWWkevQ",
+      "views": 68264,
+      "date": "2026-03-08",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DVmgTWWkevQ_card.json"
+    },
+    {
+      "id": "DV1J01qkRQD",
+      "views": 67070,
+      "date": "2026-03-13",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DV1J01qkRQD_card.json"
+    },
+    {
+      "id": "DWKB53eEggw",
+      "views": 55297,
+      "date": "2026-03-21",
+      "caption": "Did you know? 🤫\n\nhttps://amzn.to/409aj9G\n\n#health #womenshea",
+      "card": "DWKB53eEggw_card.json"
+    }
+  ],
+  "analysis_status": "FRAMES_EXTRACTED — needs visual analysis"
+}

@@ -1,5 +1,8 @@
 # Split-Screen Storytelling
 
+<!-- analysis-date: 2026-03-26 -->
+> **Reference data**: Analyzed 2026-03-26. Source accounts: @sheisapaigeturner. Upload date unknown — likely 2025.
+
 Third-party transformation narrative. Creator speaks in the bottom half while the top half cycles through visual evidence: before/during/after photos, ingredient B-roll, product shots. The split layout lets you show proof while the narrator explains.
 
 ## Reference Video

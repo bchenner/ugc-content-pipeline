@@ -1,0 +1,45 @@
+{
+  "username": "naturefixhealth1",
+  "platform": "instagram",
+  "scanned_at": "2026-03-28T01:05:56.389571",
+  "scan_dir": "C:\\Users\\Privat\\AppData\\Local\\Temp\\video-analysis\\scan-naturefixhealth1",
+  "total_viral_videos": 5,
+  "videos": [
+    {
+      "id": "DVuFSmXknGk",
+      "views": 1509891,
+      "date": "2026-03-10",
+      "caption": "Make a creamy homemade dark‑chocolate spread with just 3 ing",
+      "card": "DVuFSmXknGk_card.json"
+    },
+    {
+      "id": "DVrNSAWAfKZ",
+      "views": 470494,
+      "date": "2026-03-09",
+      "caption": "Can you really make a cheesecake with just TWO ingredients? ",
+      "card": "DVrNSAWAfKZ_card.json"
+    },
+    {
+      "id": "DVzJs63jBKW",
+      "views": 419092,
+      "date": "2026-03-12",
+      "caption": "This homemade blueberry jam needs only three ingredients and",
+      "card": "DVzJs63jBKW_card.json"
+    },
+    {
+      "id": "DVpOmpTgdKA",
+      "views": 309786,
+      "date": "2026-03-09",
+      "caption": "Need a sweet fix but want to hit your protein goals? 🍫 This ",
+      "card": "DVpOmpTgdKA_card.json"
+    },
+    {
+      "id": "DVmJdbnDzKc",
+      "views": 277516,
+      "date": "2026-03-07",
+      "caption": "Ingredients\n• Dark chocolate 70–85% — 150 g\n• Soft Medjool d",
+      "card": "DVmJdbnDzKc_card.json"
+    }
+  ],
+  "analysis_status": "FRAMES_EXTRACTED — needs visual analysis"
+}

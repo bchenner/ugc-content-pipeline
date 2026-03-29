@@ -12,6 +12,12 @@ Orchestrates the full UGC content creation pipeline. You coordinate the workflow
 - **Strategist**: `../strategist/` — Content briefs, audience research, prehook selection
 - **Researcher**: `../viral-scanner/` — Trend scanning, hook research, competitor analysis. Uses `/last30days` skill
 
+## Reference Files
+
+- **Accounts**: `reference/accounts.md` — All 6 accounts with avatars, settings, wardrobe, video types, current scripts
+- **Products**: `reference/products.md` — Salvora Rhodiola Rosea: approved angles, banned angles, CTA keywords, how to talk about it, production rules
+- **Creator Library**: `../visual-planner/reference/creator-library/` — Scanned creator accounts with hook analysis and dated references
+
 ## Utilities
 
 - **Knowledge Updater**: `../knowledge-updater/` — Ingests new information and updates agent projects. Supports video analysis via `/whisper` skill
@@ -255,11 +261,36 @@ When the user has a cloned voice to use instead of Veo's default TTS:
 - **Stage 4**: Veo Prompter replaces DELIVERY instructions with cloned voice ID reference. All visual instructions (micro-movements, hand sync, posture anchors) remain the same
 - **Note**: Voice cloning is external to the pipeline — the user handles the voice clone setup separately
 
-### Content Ratio Strategy (Optional)
-For users who want to mix in growth content alongside their sales videos:
-- General guideline: **2/3 growth + 1/3 salesy** across a content calendar
-- Growth content: educational, value-first, soft sell — builds trust and followers
-- The pipeline defaults to salesy content. Only switch to growth mode if the user explicitly requests it
+### Content Ratio Strategy <!-- date: 2026-03 -->
+- Under 50K followers: **80-90% growth, 10-20% sales**. Growth = recipes, body anatomy, relatable moments. Sales = product pitch with CTA
+- Over 50K followers: **50/50 growth/sales**
+- **Recipe videos are GROWTH content, not sales.** Recipe demos, ingredient walkthroughs, and remedy tutorials build saves and followers. They do NOT pitch the product directly. The product appears only in sales videos
+- **3:1 copy/original ratio for sales videos**: For every 3 sales videos, 2 should be direct copies of proven storytelling templates (same story structure, swap avatar). 1 can be original
+- Post **2 videos per day minimum** per account. Never skip days — missing 2-3 days kills momentum
+
+### View Jail Rules <!-- date: 2026-03 -->
+- **Under 1,000 views after 15-20 posts**: Change content STYLE, not just topics
+- **Under 200 views on 10 videos in a row**: Account is in view jail (account problem, not content). Change the account
+- **Before abandoning any account**: Get content reviewed — 90% of the time it's content, not the account
+- **2-3 videos over 10K views**: Account is primed and healthy. Focus on quality to go viral
+
+### Approved Angles (Salvora Rhodiola Rosea) <!-- date: 2026-03 -->
+Use ONLY these emotional angles for sales content:
+- **Menopause**: Hot flashes, mood swings, sleep loss, relationship strain
+- **Looking old / unattractive**: Husband left, lost glow, aging shame
+- **Loss of female energy**: Burnt out mom, can't cope, running on empty
+- **Stress**: Chronic stress destroying relationships, health, joy
+- **Loss of sexual drive**: Intimacy breakdown, low desire
+
+**BANNED angles** — do NOT use:
+- Cortisol (do not use the word "cortisol" in any script)
+- Weight loss, belly fat, body transformation claims
+
+### Avatar Image Rules <!-- date: 2026-03 -->
+- Avatar images are **uploaded** into Media nodes, NOT generated. The avatar photo already exists
+- For **PiP videos** (mixed-media, recipe demo PiP): Avatar is a selfie-style image on a **white background**. Background is removed in post-production and the avatar is composited over rendered backgrounds
+- For **full-frame videos** (talking head, storytelling confession, symptom ID): Avatar is in their setting (office, kitchen, etc.)
+- **Settings are avatar-specific** — each avatar has their own environment matching their archetype (naturopath office, clinical space, consultation room, etc.)
 
 ## DELIVERY ENHANCEMENTS <!-- date: 2026-03 -->
 

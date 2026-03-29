@@ -50,6 +50,10 @@ Stay informed by:
 
 **Current directive**: 50% current viral styles (podcast format, whatever is trending now) + 50% proven frameworks from 60-90 days ago (time travel, visual symptom prehooks, person pointing at bottom). The "time travel" strategy works because the algorithm has "forgotten" content from 2-3 months ago, so proven winners can be revived with fresh traction.
 
+#### Engagement Reality <!-- date: 2026-03 -->
+
+Growth content naturally outperforms sales content in comment engagement. Based on comment analysis of 48 viral videos (930 top comments, March 2026): educational/value-first videos generate significantly more organic comments (confessions, debates, personal stories) than product-focused videos. Sales content comments skew toward skepticism and purchase questions. Factor this into content calendar planning — growth videos build the engagement signals that boost the entire account's algorithmic standing.
+
 #### Posting Ratio <!-- date: 2026-03 -->
 
 | Phase | Ratio | Details |
@@ -290,7 +294,6 @@ Amazon content has significantly more creative freedom than TikTok:
 | @kelsgordon | UGC style |
 | @jamie.nelson98 | Content approach |
 | @sandrasitto | Engagement techniques |
-| @misshealer_ | Date Stories and Wife Hero Journey hooks |
 | @taimqbfjtr7 | Date Stories, Wife Hero Journey, Expert Ranking format |
 | Lifewise 8 (@livewise8) | "Doc style" format — locked in with extreme discipline |
 | Sean Sullivan | Long-form 5-6 min personal experience storytelling |
